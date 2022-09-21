@@ -17,7 +17,7 @@ from typing import List, Tuple
 
 path=os.getcwd()
 
-with open (r'/Users/garima/learningmodel/garima/EntityMatcher/kb_cyber.yaml') as file:
+with open (r'/Users/garima/KG-CyberSec/EntityMatcher/kb_cyber.yaml') as file:
     kb_dat= yaml.load(file, Loader=yaml.FullLoader)
   #  print(kb_dat['THINGS'])
   #  print(kb_dat['RELS'])
@@ -113,7 +113,7 @@ class LexKB(object):
         return "\n".join(my_str)  
 
 # open the lex dat file
-with open (r'/Users/garima/learningmodel/garima/EntityMatcher/lex_cyber.yaml') as file:
+with open (r'/Users/KG-CyberSec/EntityMatcher/lex_cyber.yaml') as file:
     lex_dat= yaml.load(file, Loader=yaml.FullLoader)
 
     print(lex_dat['Snort'])
@@ -167,15 +167,9 @@ class LexKBMatcher(object):
 lexkb_matcher = LexKBMatcher(lexkb, kb)
 lexkb_matcher.make_matcher(nlp, 'ORTH')
 
-text = """One planet, dozens of cities and 10 million Californians collectively 
-benefited during the past decade from the creation of community choice aggregators, 
-or CCAs, in local communities throughout the state.
-More commonly known as community choice energy programs, locally controlled CCAs give residents and businesses 
-the ability to select greener, renewable sources of electricity often at a lower cost than provided by 
-California’s three investor-owned utilities: Pacific Gas and Electric Co., San Diego Gas & Electric Co., 
-and Southern California Edison."""
+text = """Snort is used for Intrusion detection. Students will use snort packet sniffer. Students will write their own rules. Snort can be used as simple packet logger. Snort analyze real time traffic."""
 
-text="Good morning Danny. This is John from california at North Carolina Electric Membership Corporation and Duke Energy, it is June 5, 2021 today"
+
 #doc = nlp(text)
 #displacy.render(doc, style='ent')
 
@@ -203,9 +197,6 @@ def render(doc):
     return dat
     
     
-utility_list=render(doc, doc1)
-
-#print(utility_list)
 
 def render_all(doc, doc1):
     ents = [{'name': span, 'label': span.label_} for span in doc._.kb_ner]
