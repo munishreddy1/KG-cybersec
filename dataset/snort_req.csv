@@ -1,0 +1,11 @@
+﻿sentence
+Snort lab has prereq Linux
+Snort lab has prereq Computer Networking
+Snort lab has prereq setup syslog
+Snort lab uses syslog for remote logging
+Snort lab has prereq deploy attacks using hping3
+Students will use snort as a packet sniffer 
+Students will write their own IDS rules
+Snort lab provides access to public domain. 
+The attacks deployed in this lab potentially can damage the public domain.
+Students should agree the ethical requirement

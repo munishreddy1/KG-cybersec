@@ -1,0 +1,105 @@
+,source,edge,target,relation,action
+0,Snort lab,has prereq,Linux,has_prereq,
+1,Snort lab,has prereq,Computer Networking,has_prereq,
+2,Snort lab,has prereq,setup syslog,has_prereq,
+3,Snort lab,uses,syslog remote for logging,has_a,
+4,Snort lab,has prereq,deploy attacks  using hping3,has_prereq,
+5,Snort lab,has,four  tasks,has_a,
+6,Students,will use,snort  packet sniffer,uses,
+7,Students,will write,own IDS rules,implements,
+8,Students,access,public  domain,uses,
+9,Attacks,damage,public  domain,can_expose,
+10,Students,should agree,ethical  requirement,has_a,
+11,IDS,means,Intrusion Detection,has_a,means
+12,Snort,is used for,Intrusion Detection,uses,
+13,Snort,can detect,network attacks,can_analyze,detect
+14,Snort,be used as,simple packet logger,implements,
+15,Snort,analyze,real time traffic,can_analyze,
+16,Snort,analyze,real time data flow,can_analyze,
+17,Snort,can check,protocol analysis,can_analyze,
+18,Snort,detect,different  types  of attacks,can_analyze,detect
+19,Snort,checks,packet  user rules,can_analyze,
+20,Snort rules,be written in,language,has_a,
+21,Snort rules,have,good  structure,has_a,
+22,Snort,match,previous attack pattern,can_analyze,match
+23,Snort,checks,network behavior,can_analyze,
+24,Snort,can discard,bad  packet,can_analyze,discard
+25,Snort,has,Packet Decoder,has_a,
+26,Packet Decoder,forms,packets,has_a,
+27,Packet Decoder,determines,underlying  protocols,implements,determine
+28,Packet Decoder,determines,packet data size,implements,determine
+29,Packet Decoder,looks,header anomalies,can_analyze,finds
+30,Snort,has,Preprocessor,has_a,
+31,Preprocessor,verify,HTTP anomalies,can_analyze,verify
+32,Preprocessor,verify,FTP anomalies,can_analyze,verify
+33,Preprocessor,can modify,packet data,can_analyze,modify
+34,Snort,has,Detection Engine,has_a,
+35,Detection Engine,detects,intrusion  in packet,can_analyze,detect
+36,Detection Engine,chains,rules,has_a,chains
+37,Snort,has,Log Alert system,has_a,
+38,Snort,has,Output Module,has_a,
+39,Output Module,controls,type  of output,has_a,control
+40,Output Module,sends,alerts,has_a,sends
+41,Task1,is,Snort,implements,
+42,C1,installs,Snort,has_a,install
+43,Snort,shows,O1,has_a,shows output
+44,C2,check,Snort status,can_analyze,checks
+45,Snort status,shows,O2,has_a,shows output
+46,Configuration files,are located in,folder F1,has_a,located in
+47,Task2,is run,Snort,implements,
+48,C3,turns,Snort  into NIDS,implements,
+49,Server,has,N1,has_a,
+50,Attacker,has,N2,has_a,
+51,i1,is set,Client,implements,
+52,i2,sets,Ingress,implements,
+53,i3,sets,Egress,implements,
+54,i4,sets,Server,implements,
+55,Snort,set,Sniff mode,implements,sets
+56,Snort,can sniff,Ingress,implements,sniffs
+57,Snort,can sniff,Egress,implements,sniffs
+58,Ingress,captures,incoming  traffic,can_analyze,captures
+59,Snort,sniffs,firewall traffic,can_analyze,sniffs
+60,Task2,writes,Snort rules,implements,
+61,C4,makes,packet sniffer,implements,
+62,Snort,has,packet logging,has_a,
+63,packet logging,collects,data  as file,implements,collects
+64,C5,sorts,files  into directories,implements,sort
+65,O3,creates,alert  in terminal,implements,creates
+66,C7,can read,log files,implements,read
+67,Snort,can output,tcpdump pcap,implements,can output
+68,Snort,can output,unified2,implements,can output
+69,C8,can tell,output file type,implements,shows
+70,Wireshark,can read,tcpdump pcap,implements,read
+71,u2spewfoo,can read,unified2,implements,read
+72,C9,sends,alerts   syslog,implements,read
+73,Task3,is add,Snort rules,implements,sends
+74,Detection alert,is added to,IP packets,implements,add
+75,C10,used to,backup to snort,implements,added
+76,C11,edits,snort conf,implements,used as backup
+77,Snort rules,is tested,icmp rules,implements,edit
+78,R1,is added to,icmp rules,implements,added
+79,C12,can test,icmp rules,implements,test
+80,Snort rules,is tested,system variables,implements,test
+81,system variables,be edited in,conf file,implements,edit
+82,system variables,be set as,home network,implements,set
+83,system variables,set,external  network,implements,set
+84,C13,overrides,home network,implements,overrides
+85,R2,appends,tcp rules,implements,appends
+86,C14,make,Snort NIDS,implements,
+87,Snort rules,is tested,payload options,implements,test
+88,payload options,shows,captured  data,implements,shows
+89,Snort rules,is tested,non payload options,implements,test
+90,R3,matches,HTTP,implements,match
+91,R4,identify,icmp messages,implements,identify
+92,Network,is set as,client gateway server,implements,set as
+93,Packet  forwarding,enabled,on Gateway,implements,enabled
+94,Firewall,set,sniff server,implements,set as
+95,Firewall,disabled,for testing,implements,disabled
+96,Blacklist,enabled,for testing,implements,enabled
+97,Task4,is detecting,Land Attack,can_analyze,detect
+98,Land Attack,sends,spoofed TCP SYN Packets,implements,sends
+99,Task4,is detecting,SYN Flood Attack,implements,detect
+100,Task4,is detecting,Smurf Attack,implements,detect
+101,Task4,is detecting,UDP Flood Attack,implements,detect
+102,Task4,is detecting,Port Scan Attack,implements,detect
+103,Task4,is settting,Snort syslog,implements,sets

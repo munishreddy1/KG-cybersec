@@ -1,0 +1,105 @@
+sentence
+Snort lab has prereq Linux
+Snort lab has prereq Computer Networking
+Snort lab has prereq setup syslog
+Snort lab uses syslog for remote logging
+Snort lab has prereq deploy attacks using hping3
+Snort lab has four tasks
+Students will use snort as a packet sniffer 
+Students will write their own IDS rules
+Students can access public domain. 
+Attacks can damage public domain.
+Students should agree the ethical requirement
+IDS means Intrusion Detection
+Snort is used for Intrusion Detection 
+Snort can detect network attacks.
+Snort can also be used as a simple packet logger.
+Snort can analyze real time traffic 
+Snort can analyze real time data flow.
+Snort can check protocol analysis 
+Snort can detect different types of attacks.
+Snort checks the packet against user rules
+Snort rules can be written in any language
+Snort rules have good structure
+Snort match previous attack pattern
+Snort checks the network behavior 
+Snort can discard the bad packet
+Snort has a Packet Decoder
+Packet Decoder forms the packets
+Packet Decoder determines the underlying protocols
+Packet Decoder determines packet data size
+Packet Decoder looks for header anomalies 
+Snort has a Preprocessor
+Preprocessor verify HTTP anomalies
+Preprocessor verify FTP anomalies
+Preprocessor can modify packet data
+Snort has Detection Engine
+Detection Engine detects intrusion in packet
+Detection Engine chains the rules
+Snort has Log Alert system
+Snort has Output Module
+Output Module controls type of output
+Output Module sends alerts
+Task1 is to install Snort 
+C1 installs Snort
+Snort shows O1
+C2 check Snort status
+Snort status shows O2
+Configuration files are located in folder F1
+Task2 is run Snort
+C3 turns Snort into NIDS
+Server has N1
+Attacker has N2
+i1 is set Client
+i2 sets Ingress
+i3 sets Egress 
+i4 sets Server
+Snort set into Sniff mode
+Snort can sniff the Ingress
+Snort can sniff the Egress.
+Ingress captures incoming traffic
+Snort sniffs firewall traffic
+Task2 writes Snort rules
+C4 makes packet sniffer
+Snort has packet logging
+The packet logging collects data as file
+C5 sorts files into directories
+O3 creates alert in the terminal
+C7 can read log files
+Snort can output tcpdump pcap 
+Snort can output unified2 
+C8 can tell output file type
+Wireshark can read tcpdump pcap
+u2spewfoo can read unified2
+C9 sends alerts to syslog
+Task3 is add Snort rules
+Detection alert is added to IP packets
+C10 is used to backup snort conf
+C11 edits snort conf
+Snort rules is tested using icmp rules
+R1 is added to icmp rules
+C12 can test icmp rules
+Snort rules is tested using system variables
+system variables can be edited in conf file
+system variables can be set as home network
+system variables can be set external network
+C13 overrides the home network 
+R2 appends tcp rules
+C14 make Snort NIDS
+Snort rules is tested using payload options
+payload options shows captured data
+Snort rules is tested using non payload options
+R3 matches HTTP
+R4 identify icmp messages
+Network is set as client gateway server
+Packet forwarding enabled on Gateway
+Firewall set to sniff server
+Firewall disabled for testing
+Blacklist enabled for testing
+Task4 is detecting Land Attack
+Land Attack sends spoofed TCP SYN Packets
+Task4 is detecting SYN Flood Attack
+Task4 is detecting Smurf Attack
+Task4 is detecting UDP Flood Attack
+Task4 is detecting Port Scan Attack
+Task4 is settting Snort syslog

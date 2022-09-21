@@ -1,0 +1,297 @@
+﻿1,What is Firewall,fireWall
+2,What is iptables,fireWall
+3,How to run firewall,fireWall
+4,tell me about firewall,fireWall
+5,how does firwall work,fireWall
+6,how do I run firewall,fireWall
+7,What is Intrusion Detection Systems?,idsBasic
+8,intrusion means?,idsBasic
+9,What is Intrusion Prevention Systems (IPS),idsBasic
+10,What is IDS,idsBasic
+11,What is IDS?,idsBasic
+12,IDS,idsBasic
+13,what's IDS,idsBasic
+14,intrusion detection?,idsBasic
+15,intrusion prevention?,idsBasic
+16,What does intrusion detection do?,idsBasic
+17,what an IPS,idsBasic
+18,IPS?,idsBasic
+19,how does prevention works,idsBasic
+20,How to enumerating with enum4linux?,enumUser
+21,What is Kali?,kali
+22,How to enumerating user accounts through null sessions with rpcclient?,enumUser
+23,What is Metasploit,metasploit
+24,What is Metasploit framework （MSF）,metasploit
+25,How to prepare Metastploitable 2,metasploitable
+26,What are the Basic Msfconsole Commands?,msfconsole
+27,How to check if Metasploit is installed?,metasploit
+28,How to install Metasploit?,metasploit
+29,What does use command in Metasploit do?,metasploitCommands
+30,What does  back command in Metasploit do?,metasploitCommands
+31,What does  exit command in Metasploit do?,metasploitCommands
+32,What does  help command in Metasploit do?,metasploitCommands
+33,What does info command in Metasploit do?,metasploitCommands
+34,What does  search command in Metasploit do?,metasploitCommands
+35,What does set command in Metasploit do?,metasploitCommands
+36,What does show command in Metasploit do?,metasploitCommands
+37,What does show payloads command in Metasploit do?,metasploitCommands
+38,What does show targets command in Metasploit do?,metasploitCommands
+39,What does show advanced command in Metasploit do?,metasploitCommands
+40,What does show nops command in Metasploit do?,metasploitCommands
+41,What does show evasion command in Metasploit do?,metasploitCommands
+42,What does run and exploit command in Metasploit do?,metasploitCommands
+43,What is msfconsole?,msfconsole
+44,What does msfconsole mean,msfconsole
+45,What is Metasploitable2?,metasploitable
+46,What is Metasploitable-2,metasploitable
+47,What is Trojan horses?,networkAttacks
+48,What is SYN flood?,syn
+49,What is zombie host?,networkAttacks
+50,What is whitehats,networkAttacks
+51,What is white-box,networkAttacks
+52,What is vulnerabilities,networkAttacks
+53,whitehats,networkAttacks
+54,zombie attack,networkAttacks
+55,what are different network attacks ,networkAttacks
+56,which attacks should I study,networkAttacks
+57,what does Trojan Horse mean,networkAttacks
+58,which attacks are we doing,networkAttacks
+59,ping sweet,networkAttacks
+60,What is port scanning?,networkAttacks
+61,What is ping sweeps?,networkAttacks
+62,What is IoT？,iot
+63,How to setup network connection?,networkConnection
+64,What is TCP three-way handshake,tcp
+65,What is SYN packet？,syn
+66,What is ACK packet?,ack
+67,What is FIN packet?,fin
+68,What is RPC service?,rpc
+69,What is ICMP Port Unreachable message?,icmp
+70,What is RST packet?,tcpPacket
+71,What are the TCP header flags?,tcp
+72,What is NSE? ,nmapScript
+73,What is Lua programming language,lua
+74,fingerprinting,fingerPrinting
+75,What is Cyberinfrastructures,cyberInfra
+76,What is traceroute,traceRoute
+77,What is hpings,hpings
+78,cyberInfra,cyberInfra
+79,what's Lua,lua
+80,is Lua a programming language,lua
+81,NSE?,nmapScript
+82,Nmap Scripting Engine,nmapScript
+83,Nmap script?,nmapScript
+84,What is Nmap？,nmap
+85,How to use Nmap?,nmap
+86,How to install Nmap?,nmap
+87,What is Nmap,nmap
+88,How to speed up UDP scan?,nmap
+89,How to enumerating users with Nmap?,enumUser
+90,enumerate nmap users,enumUser
+91,How to do TCP Full connect Scan?,tcp
+92,How to do UDP Scan?,nmapScan
+93,How to do SYN Scan?,syn
+94,How to do FIN Scan?,fin
+95,How to do ACK Scan?,ack
+96,How to do NULL Scan?,nmapScan
+97,How to do XMAS Scan?,nmapScan
+98,How to do RPC Scan?,rpc
+99,How to do IDLE Scan?,nmapScan
+100,What is RPC scanning,rpc
+101,"What are Prerule scripts, Host scripts, Service scripts and Postrule scripts?",nmapScript
+102,How to run Nmap Scripts?,nmapScript
+103,How to run all the Nmap scripts within a category?,nmapScript
+104,How to run Nmap scripts with a wildcard *?,nmapScript
+105,How to run a single Nmap script?,nmapScript
+106,How to create your own Nmap scripts?,nmapScript
+107,What is penetration testing?,penTest
+108,What is Penetration (Pen) Testing service,penTest
+109,What is pentest,penTest
+110,What is the procedure of pentest?,penTest
+111,How to provide an instructive and comprehensive pentest?,penTest
+112,What is snort,snort
+113,How to run snort,snort
+114,What is Snort?,snort
+115,the bot sucks,other
+116,this bot is useless,other
+117,u cant answer anything,other
+118,useless,other
+119,I don’t find anything I need,other
+120,fuck off,other
+121,u suck,other
+122,hello,greeting
+123,hi,greeting
+124,how are you?,greeting
+125,what can u tell me,greeting
+126,what should I ask you,greeting
+127,firewall,fireWall
+128,iptables,fireWall
+129,can u tell me about iptables,fireWall
+130,run a fairewall,fireWall
+131,kali,kali
+132,can u tell me about kali,kali
+133,enum user?,enumUser
+134,how can I enum user,enumUser
+135,what r different ways to enumerate,enumUser
+136,can we enuumerate users,enumUser
+137,how to enumerate users using nmap,enumUser
+138,can u enumerate using linux,enumUser
+139,what's enumerating user with rpc,enumUser
+140,is it possible to enumerate users with rpc client,enumUser
+141,Metasploit,metasploit
+142,Metasploit?,metasploit
+143,what's metasploti,metasploit
+144,install metasplout,metasploit
+145,how to install and check if metasploit is installed,metasploit
+146,can I check if metaspolit is installed,metasploit
+147,what are different commans in metasploit,metasploitCommands
+148,iot,iot
+149,attacks,networkAttacks
+150,how to do fingerprinting,fingerPrinting
+151,what do u mean by fingerprinting,fingerPrinting
+152,what's lua,lua
+153,how do u scan,nmapScan
+154,what are prerule scripts,nmapScript
+155,what are Host scripts,nmapScript
+156,what are Service scripts,nmapScript
+157,what are Postrule scripts?,nmapScript
+158,snort,snort
+159,can I run snort,snort
+160,TCP Full connect Scan?,tcp
+161,UDP Scan?,nmapScan
+162,SYN Scan?,syn
+163,FIN Scan?,fin
+164,ACK Scan?,ack
+165,NULL Scan?,nmapScan
+166,XMAS Scan?,nmapScan
+167,RPC Scan?,rpc
+168,IDLE Scan?,nmapScan
+169,what is TCP Full connect Scan?,nmapScan
+170,what is UDP Scan?,nmapScan
+171,what is SYN Scan?,syn
+172,what is FIN Scan?,fin
+173,what is ACK Scan?,ack
+174,what is NULL Scan?,nmapScan
+175,what is XMAS Scan?,nmapScan
+176,what is RPC Scan?,rpc
+177,what is IDLE Scan?,nmapScan
+178,TCP Full connect Scan?,tcp
+179,UDP ?,nmapScan
+180,SYN?,syn
+181,FIN ?,fin
+182,ACK ?,ack
+183,NULL ?,nmapScan
+184,XMAS?,nmapScan
+185,RPC ?,rpc
+186,IDLE ?,nmapScan
+187,TCP three-way handshake,tcp
+188,SYN packet？,syn
+189,ACK packet?,ack
+190,FIN packet?,fin
+191,RPC service?,rpc
+192,Trojan horses?,networkAttacks
+193,SYN flood?,syn
+194,zombie host?,networkAttacks
+195,whitehats,networkAttacks
+196,white-box,networkAttacks
+197,vulnerabilities,networkAttacks
+198,whitehats meaning?,networkAttacks
+199,zombie attack,networkAttacks
+200, use command ,metasploitCommands
+201, back command?,metasploitCommands
+202,exit command ,metasploitCommands
+203, help command ,metasploitCommands
+204, info command in Metasploit ,metasploitCommands
+205, search command ,metasploitCommands
+206, set command ,metasploitCommands
+207,show command ,metasploitCommands
+208,show payloads command ,metasploitCommands
+209,show targets command ,metasploitCommands
+210,show advanced command ,metasploitCommands
+211,show nops command ,metasploitCommands
+212,show evasion command in Metasploit do?,metasploitCommands
+213, run and exploit command ?,metasploitCommands
+214,How to use nmap to check if a firewall is statefull or stateless?,nmapScan
+215,how to infer the deny-by-default firewall policy based on the scanning responses from the firewall?,nmapScan
+216,how to infer stateful or stateless firewall policies setup based on the scanning responses from the firewall.,nmapScan
+217,"What is the difference between standard scan, SYN scan, and ACK scan?",nmapScan
+218,How to implement a IP ID (Idle) scanning?,nmapScan
+219,How to do a UDP scan?,nmapCommands
+220,How to do a SYN scan?,syn
+221,How to do a ACK scan?,ack
+222,How to manipulate source ports of transmitted packets using nmap?,nmapCommands
+223,How to set TCP flags when doing scan using nmap?,nmapCommands
+224,How to identify IDS using NMAP,nmapCommands
+225,How to forge RST packets by firewalls and IDS/IPS?,fireWall
+226,How to monitor TTL jumps using nmap?,nmapScan
+227,How to do stealthy scans using namp?,nmapScan
+228,How to change scan speed when using nmap?,nmapScan
+229,How to scatter probes across networks rather than scanning hosts consecutively when doing nmap scan?,nmapCommands
+230,How to change IP fragment size of nmap scan? ,nmapCommands
+231,How to use decoys in nmap?,nmapCommands
+232,How to do port scan from a spoofed IP addres using nmap?,nmapCommands
+233,How to setup DNS proxying for nmap?,nmapCommands
+234,What is Kali?,kali
+235,kali is linux based?,kali
+236,kali linux,kali
+237,what is kali used for,kali
+238,USE Command,metasploitCommands
+239,BACK command ,metasploitCommands
+240,Exit command,metasploitCommands
+241,HELP command,metasploitCommands
+242,INFO command ,metasploitCommands
+243,SEARCH command ,metasploitCommands
+244,SET command,metasploitCommands
+245,SHOW command ,metasploitCommands
+246,SHOW PAYLOADS ,metasploitCommands
+247,SHOW TARGETS ,metasploitCommands
+248,SHOW ADVANCED command ,metasploitCommands
+249,show nops,metasploitCommands
+250,show evasion ,metasploitCommands
+251,run and exploit command ,metasploitCommands
+252,msfconsole,msfconsole
+253,MSF,msfconsole
+254,"what is the difference between responding time of standard scan, SYN scan and ACK scan?",nmapScan
+255,How to Scan a Single IP,nmapCommands
+256,How to Scan a Host,nmapCommands
+257,How to Scan a multiple Ips?,nmapCommands
+258,How to Scan a range of Ips,nmapCommands
+259,How to Scan using wildcard?,nmapCommands
+260,How to Scan a subnet?,nmapCommands
+261,how to Scan target from text file?,nmapCommands
+262,how to Scan a single port,nmapCommands
+263,how to Scan a range of ports,nmapCommands
+264,how to Scan multiple ports?,nmapCommands
+265,how to Scan popular ports?,nmapCommands
+266,how to Scan n most popular ports?,nmapCommands
+267,how to Scan all 65535 ports?,nmapCommands
+268,how to Scan linearly i.e. do not randomize ports?,nmapCommands
+269,how to scan sequentially,nmapCommands
+270,how to a TCP Connect Scan?,nmapCommands
+271,how to do a Version Scan?,nmapCommands
+272,how to perform OS Detection?,nmapCommands
+273,how to set custom list of TCP using “URGACKPSHRSTSYNFIN” in any order and combination?,nmapCommands
+274,how to set custom list ,nmapCommands
+275,how to use Don’t  probe i.e. assuming all hosts are up in nmap,nmapCommands
+276,"how to use Default probe (TCP, 80, 443 & ICMP) options in nmap",nmapCommands
+277,how to check whether targets are up by probing TCP ports,nmapCommands
+278,how to Use ICMP Echo Request,icmp
+279,how to Use ICMP TimeStamp Request,icmp
+280,how to Use ICMP Network Request,icmp
+281,"how to use Nmap Aggregate Timing Options - Very Slow, to evade from network administrator",nmapCommands
+282,"how to use Nmap Aggregate Timing Options – Quite Slow, used for evasion from network administrator",nmapCommands
+283,"how to use Nmap Aggregate Timing Options – Polite, to use less bandwidth",nmapCommands
+284,how to use Nmap Aggregate Timing Options – Normal: Default,nmapCommands
+285,how to use Nmap Aggregate Timing Options - Aggressive: fast,nmapCommands
+286,how to use Nmap Aggregate Timing Options - Insane: Very Aggressive,nmapCommands
+287,what is the Standard Nmap output,nmapCommands
+288,how to use Greppable format in nmap?,nmapCommands
+289,how to use XML output format in nmap,nmapCommands
+290,"how to Generate Nmap, Greppable, and XML output files using basename",nmapCommands
+291,how to Disable reverse IP address lookup,nmapCommands
+292,how to Use IPv6 in nmap,nmapCommands
+293,"how to use nmap for OS detection, Version detection, Script Scanning and traceroot",nmapCommands
+294,"how to Display reason Nmap thinks port is open, closed or filtered?",nmapCommands
+295,how to use TCP syn scan(-sS) all ports (-p-)  with speed (-T3) and results save in tcpscan.txt,nmapCommands
+296,how to use Nmap command to run all available scripts against the target IP,nmapCommands
+297,how to use UDP scan(-sU) all ports (-p-)  with speed (-T3) and results save in udpscan.txt,nmapCommands

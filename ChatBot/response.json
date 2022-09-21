@@ -1,0 +1,618 @@
+{
+	"fireWall": {
+		"intent": "fireWall",
+		"textresponse": "In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on a predetermined security rules. A firewall typically establishes a barrier between a trusted network and an untrusted network,such as the Internet. To know more about firewalls, click below buttons",
+		"buttons": [
+				
+			{
+				"IPTables": "Iptables is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall, implemented as different Netfilter modules. The filters are organized in different tables,which contain chains of rules for how to treat network traffic packets."
+			},
+
+			{
+				"RunFirewall": "To download the iptables configuration files using the following commands: \\n $ wget https: //gitlab.thothlab.org/thoth-group/ThoThLabResource/raw/master/lab-cs-cns-20002.zip \\n $ unzip lab - cs - cns - 20002. zip \\n $ cd lab - cs - cns - 20002 \\n The firewall script template files“ rc.firewall.pentest” and“ rc.firewall.reset” are located in the folder‘ lab cs - cns - 20002’. \\n They are shell scripts.To make them executable, \\n You can change their permission by(refer to more details in the lab CS - SYS - 00001 on Linux file permission): $ sudo chmod 755 rc.firewall.pentest % this will change to the file to green when you show‘ ls - l’ command \\n $ sudo chmod 755 rc.firewall.reset % this script change the iptables to default blacklist policies \\n Note that you need to change the parameter setup at the beginning of the rc.firewall.pentest and rc.firewall.reset based on your lab running environment, that is three interfaces and IP addresses.Also make sure you have set up your default GW properly on each VM.To run the script files, you can: \\n $ sudo. / rc.firewall.pentest % run the firewall script to test firewall rules \\n $ sudo. / rc.firewall.reset % run this script to clear firewall rules and reset it to apply the blacklist policy "
+			}
+
+
+
+		]
+	},
+
+	"idsBasic": {
+		"intent": "idsBasic",
+		"textresponse": "Looks like you want to know about Intrusion detection and prevention, click below buttons to know more about each of them:",
+		"buttons": [{
+				"IPS": "An intrusion prevention system (IPS) is a network security/threat prevention technology that examines network traffic flows to detect and prevent vulnerability exploits"
+			},
+			{
+				"IDS": "An intrusion detection system is a device or software application that monitors a network or systems for malicious activity or policy violations. Any intrusion activity or violation is typically reported either to an administrator or collected centrally using a security information and event management system."
+			}
+		]
+	},
+
+	"kali": {
+		"intent": "kali",
+		"textresponse": "Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing"
+	},
+
+	"metasploit": {
+		"intent": "metasploit",
+		"textresponse": "The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, \\n Massachusetts-based security company Rapid7. To more about metasploit commands and how to install metasploit, click the buttons below:",
+		"buttons": [{
+			"Install": "If Metasploit is not installed, you can follow the procedure below to install Metasploit: \\n $ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall \\n $ chmod 755 msfinstall  \\n $ ./msfinstall \\n $ msfupdate \\nTo check if Metasploit is installed on your system, you can run this command: $ msfconsole -v",
+		    "metasploitCommands": 1
+		}]
+	},
+
+
+	"metasploitable": {
+		"intent": "metasploitable",
+		"textresponse": "Metasploitable is an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques. The default login and password is msfadmin:msfadmin. Never expose this VM to an untrusted network (use NAT or Host-only mode if you have any questions what that means). \\n Just in case you meant Metasploit, then click on below button to learn about Metasploit",
+	"buttons": [{
+		"metasploit":1
+	}]
+	},
+
+	"metasploitCommands": {
+		"intent": "metasploitCommands",
+		"textresponse": "Metasploit project has multiple commands and msfconsole is the centralized interface to run these commands. Click below buttons to know more about each command:",
+		"buttons": [{
+				"use": "The use command in Metasploit is used to activate a particular module and changes the context of the msfconsole to that particular module."
+			},
+			{
+				"back": "If you want to leave the exploit context and switch back to the msfconsole, you can use the back command. The back command will take us back to the msfconsole in the general context."
+			},
+
+			{
+				"exit": "The exit command will close the msfconsole and will take you back to the Linux terminal."
+			},
+
+			{
+				"help": "The help command will return a list of possible commands and a description when typed at the msfconsole. When an active exploit is selected, you can use the help command to get a list of exploit commands."
+			},
+			{
+				"info": "When an exploit is selected with the use command, you can retrieve information like the name, platform, author, available targets and a lot more by using the info command."
+			},
+			{
+				"search": "The easiest way of using the search function is by issuing the command search followed by a search term, for example, flash to search for exploits related to Flash player. Metasploit will search for the given search term in the module names and description."
+			},
+
+			{
+				"show": "The show options command will show you the available parameters for an exploit if used when the command line is in exploit context."
+			},
+			{
+				"show payload": "When you use the show payloads command, the msfconsole will return a list of compatible payloads for this exploit. In the flash player exploit example, it will return quite a few compatible payloads shown."
+			},
+			{
+				"show target": "The show targets command will return a list of operating systems which are vulnerable to the selected exploit."
+			},
+
+			{
+				"show advanced": "By using the show advanced command, we can look at the advanced options for the exploit."
+			},
+			{
+				"show nops": "The show nops command will return a list of NOP generators. A NOP is short for No Operation and is used to change the pattern of a NOP sled in order to bypass simple IDS/IPS signatures of common NOP sleds. The NOP generators start with the CPU architecture in the name. To use a NOP generator, use the set command, followed by the name of the NOP generator. When the exploit is launched, the NOP sleds will be taken from the NOP generator."
+			},
+			{
+				"show evasion": "The show evasion command returns a list of available evasion techniques. To change evasions settings, use the set command, followed by the evasion parameter and the new value."
+			},
+			{
+				"run and exploit": "When all the required options have been set for the exploit, including a payload and advanced settings like a NOP generator, evasion options, and encoding, the exploit is ready to be executed. The exploit can be executed using two commands: run and exploit. Just type run or exploit in the msfconsole and the exploit will run."
+			}
+
+		]
+
+
+	},
+
+	"msfconsole": {
+		"intent": "msfconsole",
+		"textresponse": "The msfconsole is probably the most popular interface to the Metasploit Framework (MSF). It provides an “all-in-one” centralized console and allows you efficient access to virtually all of the options available in the MSF. MSFconsole may seem intimidating at first, but once you learn the syntax of the commands you will learn to appreciate the power of utilizing this interface. Click the below button to know about the basic metasploit commands which you can run through MSFconsole.",
+		"buttons": [{
+			 "metasploitCommands": 1
+		}
+	]
+	    
+
+	},
+
+	"syn": {
+		"intent": "syn",
+		"textresponse": "Are you looking for SYN tcp packet, or SYN Flood network attack, or about SYN scan using nmap? Click the relevant button to know about each",
+		"buttons": [
+			{
+				"SYN Packet": "The purpose of the acknowledgment packet is to let the sending node know that the packet was received. If the sending node does not receive the acknowledgment packet, the data packet is perceived to be lost."
+			},
+			{
+
+				"SYN Flood": "A SYN flood, also known as a TCP SYN flood, is a type of denial-of-service (DoS) or distributed denial-of-service (DDoS) attack that sends massive numbers of SYN requests to a server to overwhelm it with open connections."
+			},
+			{
+				"SYN Scan": "SYN scan is another form of TCP scanning. Rather than using the operating system’s network functions, the port scanner generates raw IP packets and monitors for responses. This scan type is also known as half-open scanning. because it never actually opens a full TCP connection. The port scanner generates an SYN packet. Nmap SYN scan example: \\n $ nmap -sS 192.168.0.4"
+			}
+		]
+	},
+
+
+	"ack": {
+		"intent": "ack",
+		"textresponse": "Are you looking for ACK tcp packet, or ACK scan using nmap? Click the relevant button to know about each",
+		"buttons": [
+			{
+				"ACK Packet": "SYN packets are normally generated when a client attempts to start a TCP connection to a server, and the client and server exchange a series of messages, which normally runs like this - \\n The client requests a connection by sending a SYN (synchronize) message to the server. \\n The server acknowledges this request by sending SYN-ACK back to the client. \\n The client responds with an ACK, and the connection is established."
+			},
+			{
+				"ACK Scan": "Ack scanning determines whether the port is filtered or not. This is especially good when attempting to probe for the existence of a firewall and its rulesets. Nmap ACK scan example: \\n $ nmap -sA 192.168.0.4"
+			}
+		]
+	},
+
+
+	"fin": {
+		"intent": "fin",
+		"textresponse": "Are you looking for FIN TCP packet, or FIN scan using nmap? Click the relevant button to know about each",
+		"buttons": [
+			{
+				"FIN Packet": "TCP FIN packet is required to close a connection. During normal circumstances both sides are sending and receiving data simultaneously. Connection termination typically begins with one side signalling that it wants to close the connection to ensure that the connection is shutting down gracefully."
+			},
+			{
+				"FIN Scan": "FIN scan a stealthy scan, like the SYN scan, but sends a TCP FIN packet instead. Most, but not all computers will send an RST packet back if they get this input so that the FIN scan can show false positives and negatives, but it may get under the radar of some IDS programs and other countermeasures. Nmap FIN scan example: \\n $ nmap -sF 192.168.0.4"
+			},
+		]
+	},
+
+
+	"tcp": {
+		"intent": "tcp",
+		"textresponse": "Are you looking for TCP three-way handshake, TCP packet header, or TCP full connect scan using nmap? Click the relevant button to know about each",
+		"buttons": [
+			{
+				"TCP 3way Handshake": "TCP uses a three-way handshake to establish a reliable connection. The connection is full duplex, and both sides synchronize (SYN) and acknowledge (ACK) each other. The exchange of these four flags is performed in three steps—SYN, SYN-ACK, and ACK."
+			},
+
+			{
+				"TCP Packet Header": "In TCP connection, flags are used to indicate a particular state of connection or to provide some additional useful information like troubleshooting purposes or to handle a control of a particular connection. Most commonly used flags are “SYN”, “ACK” and “FIN”. Each flag corresponds to 1 bit information."
+			},
+			{
+				"TCP Full Connect Scan": "TCP Connect scan completes the 3-way handshake. If a port is open, the operating system completed the TCP three-way handshake. Nmap Full scan example: $ nmap -sT 192.168.0.4"
+			}
+		]
+	},
+
+
+	"networkAttacks": {
+		"intent": "networkAttacks",
+		"textresponse": "Click on below attacks to know more:",
+		"buttons": [{
+				"Trojan horse": "In computing, a Trojan horse is any malware that misleads users of its true intent. The term is derived from the Ancient Greek story of the deceptive Trojan Horse that led to the fall of the city of Troy."
+			},
+			{
+				"SYN Flood": "A SYN flood, also known as a TCP SYN flood, is a type of denial-of-service (DoS) or distributed denial-of-service (DDoS) attack that sends massive numbers of SYN requests to a server to overwhelm it with open connections."
+			},
+
+			{
+				"Zombie Host": "In computing, a zombie is a computer connected to the Internet that has been compromised by a hacker via a computer virus, computer worm, or trojan horse."
+			},
+			{
+				"White Hats": "A white hat is an ethical computer hacker, or a computer security expert, who specializes in penetration testing and other testing methodologies that ensure the security of an organization's information systems. Ethical hacking is a term meant to imply a broader category than just penetration testing."
+			},
+			{
+				"Vulnerabilities": "In computer security, a vulnerability is a weakness which can be exploited by a threat actor, such as an attacker, to cross privilege boundaries within a computer system. To exploit a vulnerability, an attacker must have at least one applicable tool or technique that can connect to a system weakness."
+			},
+			{
+				"White Box": "In penetration testing, white-box testing refers to a method where a white hat hacker has full knowledge of the system being attacked."
+			},
+			{
+				"Port Scan": "Port scanning is a method of determining which ports on a network are open and could be receiving or sending data. It is also a process for sending packets to specific ports on a host and analyzing responses to identify vulnerabilities."
+			},
+			{
+				"Ping Sweep": "The classic tool used for ping sweeps is fping which traditionally was accompanied by gping to generate the list of hosts for large subnets,although more recent version of fping include that functionality.Well-known tools with ping sweep capability include nmap for Unix systems."
+			},
+			{
+				"RPC Scanning": "RPC scan is an adversary scans for RPC services listing on a Unix/Linux host. This type of scan can be obtained via native operating system utilities or via port scanners like nmap. When performed by a scanner, an RPC datagram is sent to a list of UDP ports and the response is recorded. Particular types of responses can be indicative of well-known RPC services running on a UDP port."
+			}
+		]
+
+
+	},
+	"iot": {
+		"intent": "iot",
+		"textresponse": "The Internet of things (IoT) describes physical objects (or groups of such objects) that are embedded with sensors, processing ability, software, and other technologies, and that connect and exchange data with other devices and systems over the Internet or other communications networks."
+	},
+	"networkConnection": {
+		"intent": "networkConnection",
+		"textresponse": "Check ip on the target machine using $ifconfig and use it for nmap commands."
+	},
+	"tcpPacket": {
+		"intent": "tcpPacket",
+		"textresponse": "Click on below options:",
+		"buttons": [{
+				"TCP 3way Handshake": "TCP uses a three-way handshake to establish a reliable connection. The connection is full duplex, and both sides synchronize (SYN) and acknowledge (ACK) each other. The exchange of these four flags is performed in three steps—SYN, SYN-ACK, and ACK."
+			},
+
+			{
+				"TCP Packet Header": "In TCP connection, flags are used to indicate a particular state of connection or to provide some additional useful information like troubleshooting purposes or to handle a control of a particular connection. Most commonly used flags are “SYN”, “ACK” and “FIN”. Each flag corresponds to 1 bit information."
+			},
+			{
+				"SYN Packet": "SYN packets are normally generated when a client attempts to start a TCP connection to a server, and the client and server exchange a series of messages, which normally runs like this - \\n The client requests a connection by sending a SYN (synchronize) message to the server. \\n The server acknowledges this request by sending SYN-ACK back to the client. \\n The client responds with an ACK, and the connection is established."
+			},
+
+			{
+				"ACK Packet": "The purpose of the acknowledgment packet is to let the sending node know that the packet was received. If the sending node does not receive the acknowledgment packet, the data packet is perceived to be lost."
+			},
+			{
+				"FIN Packet": "TCP FIN packet is required to close a connection. During normal circumstances both sides are sending and receiving data simultaneously. Connection termination typically begins with one side signalling that it wants to close the connection to ensure that the connection is shutting down gracefully."
+			},
+			{
+				"RST Packet": "A TCP Reset (RST) packet is used by a TCP sender to indicate that it will neither accept nor receive more data. Out-of-path network management devices may generate and inject TCP Reset packets in order to terminate undesired connections."
+			}
+		]
+	},
+
+	
+	"icmp": {
+		"intent": "icmp",
+		"textresponse": "The ICMP - Destination net unreachable message is one which a user would usually get from the gateway when it doesn't know how to get to a particular network. The ICMP - Destination host unreachable message is one which a user would usually get from the remote gateway when the destination host is unreachable. If you want to know how to make ICMP request using nmap, click on nmap commands button",
+		"buttons": [
+			{
+				"NMAP Commands": 1
+			}
+		]
+
+
+	},
+
+	"lua": {
+		"intent": "lua",
+		"textresponse": "Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded use in applications. Lua is cross-platform, since the interpreter of compiled bytecode is written in ANSI C, and Lua has a relatively simple C API to embed it into applications."
+	},
+	"fingerPrinting": {
+		"intent": "fingerPrinting",
+		"textresponse": "Fingerprinting is the process of identifying the services connected to those ports. The most common active methods use the responses that a system sends to specific TCP or ICMP packets. The TCP fingerprinting process involves setting flags in the header that different operating systems and versions respond to differently. Usually several different TCP packets are sent and the responses are compared to known baselines (or fingerprints) to determine the remote OS."
+	},
+	"cyberInfra": {
+		"intent": "cyberInfra",
+		"textresponse": "United States federal research funders use the term cyberinfrastructure to describe research environments that support advanced data acquisition, data storage, data management, data integration, data mining, data visualization and other computing and information processing services distributed over the Internet beyond the scope of a single institution. In scientific usage, cyberinfrastructure is a technological and sociological solution to the problem of efficiently connecting laboratories, data, computers, and people with the goal of enabling derivation of novel scientific theories and knowledge."
+	},
+	"traceRoute": {
+		"intent": "traceRoute",
+		"textresponse": "In computing, traceroute and tracert are computer network diagnostic commands for displaying possible routes and measuring transit delays of packets across an Internet Protocol network."
+	},
+
+	"hpings": {
+		"intent": "hpings",
+		"textresponse": "hping is an open-source packet generator and analyzer for the TCP/IP protocol created by Salvatore Sanfilippo. It is one of the common tools used for security auditing and testing of firewalls and networks, and was used to exploit the idle scan scanning technique, and now implemented in the Nmap Security Scanner."
+	},
+
+	"nmap": {
+		"intent": "nmap",
+		"textresponse": "Nmap (Network Mapper) is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. To know more about nmap, click the relevant button below:",
+		"buttons": [{
+				"Install": "To check if Nmap is installed on your system, you can check the following command: \\n $ nmap -v To use Nmap, you need to be familiar with command-line interfaces. Most advanced users can write scripts to automate common tasks, but this is not necessary for basic network monitoring. If Nmap is not installed, you can issue the following command on your Linux CLI prompt: \\n $ sudo apt install nmap"
+			},
+			{
+				"Configure": "To speed up the UDP scan, you can apply the following approaches: \\n Increase host parallelism: use –min-hostgroup to scan multiple hosts at once. \\n Scan popular ports first: using the -F option to scan the most common UDP ports. \\n Add –version-intensity 0 to version detection scans. \\n Scan from behind the firewall. \\n Use –host-timeout to skip slow hosts. \\n Use -v (verbosity) and chill out, Nmap provides estimated time for scan completion of each host."
+			},
+
+			{
+				"NMAP Scan": 1
+
+			},
+
+			{
+				"NMAP Scripts": 1
+			},
+
+			{
+				"NMAP Commands": 1
+			}
+		]
+	},
+	"nmapScan": {
+		"intent": "nmapScan",
+		"textresponse": "Click on below button to know more about specific scans. If you were rather looking for nmap scripts, then click on NMAP Scripts button",
+		
+		"buttons": [{
+				"UDP Scan": "UDP scan checks to see if any UDP ports are listening. Since UDP does not respond with a positive acknowledgment like TCP and only responds to an incoming UDP packet when the port is closed, this type of scan can sometimes show false positives. \\n UDP scan is activated with the -sU option. It can be combined with a TCP scan type such as SYN scan (-sS) to check both protocols during the same run. UDP scan works by sending a UDP packet to every targeted port. For most ports, this packet will be empty (no payload), but for a few of the more common ports a protocol-specific payload will be sent. Based on the response, or lack thereof, the port is assigned to one of four states. To do a UDP scan with Nmap: #nmap -sU <IP> for example: \\n $ nmap -sU 192.168.0.4"
+			},
+
+			{
+				"SYN Scan": "SYN scan is another form of TCP scanning. It is the default and most popular scan option. Rather than using the operating system’s network functions, the port scanner generates raw IP packets and monitors for responses. This scan type is also known as half-open scanning because it never actually opens a full TCP connection. The port scanner generates a SYN packet. It can be performed quickly, scanning thousands of ports per second on a fast network not hampered by intrusive firewalls. SYN scan is relatively unobtrusive and stealthy, since it never completes TCP connections. It also works against any compliant TCP stack rather than depending on idiosyncrasies of specific platforms as Nmap's FIN/NULL/Xmas, Maimon and idle scans do. It also allows clear, reliable differentiation between open, closed, and filtered states. Nmap starts by sending a TCP packet with the SYN flag set to port 22. This is the first step in the TCP three-way handshake that any legitimate connection attempt takes. Since the target port is open, Scanme takes the second step by sending a response with the SYN and ACK flags back. To do a SYN scan with nmap: #nmap -sS <IP> For example, #nmap -sS 192.168.1.104"
+			},
+
+			{
+				"FIN Scan": "FIN scan a stealthy scan, like the SYN scan, but sends a TCP FIN packet instead. Most, but not all computers will send an RST packet back if they get this input so that the FIN scan can show false positives and negatives, but it may get under the radar of some IDS programs and other countermeasures. Nmap FIN scan example: \\n $ nmap -sF 192.168.0.4"
+			},
+			{
+				"ACK Scan": "ACK scanning determines whether the port is filtered or not. This is especially good when attempting to probe for the existence of a firewall and its rulesets. Nmap ACK scan example: \\n $ nmap -sA 192.168.0.4 \\n ACK scan is quickest, SYN scan a bit slower, and standard scan is slowest in responding time."
+			},
+
+			{
+				"NULL Scan": "NULL scan is stealthy scan that sets all the TCP header flags to off or null. This is not normally a valid packet, and some hosts will not know what to do with this. Nmap Null scan example: \\n $ nmap -sN 192.168.0.4"
+			},
+			{
+				"XMAS Scan": "Similar to Null scan, XMAS is also a stealthy scan that sets all the TCP header flags to on. This is not normally a valid packet, and some hosts will not know what to do with this. Nmap Xmas scan example: \\n $ nmap -sX 192.168.0.4"
+			},
+			
+			{
+				"TCP Full Connect Scan": "TCP Connect scan completes the 3-way handshake. If a port is open, the operating system completed the TCP three-way handshake. \\n TCP connect scan is the default TCP scan type when SYN scan is not an option. This is the case when a user does not have raw packet privileges or is scanning IPv6 networks. Instead of writing raw packets as most other scan types do, Nmap asks the underlying operating system to establish a connection with the target machine and port by issuing the connect system call. The first two steps (SYN and SYN/ACK) are exactly the same as with a SYN scan. Then, instead of aborting the half-open connection with a RST packet, krad acknowledges the SYN/ACK with its own ACK packet, completing the connection. To do a TCP scan with nmap: #nmap -sT <IP>  For example, #nmap -sT 192.168.1.104"
+			},
+
+			{
+				"RPC Scan": "RPC scan looks for machines answering to RPC (Remote Procedure Call) services. RPC, which allows remote commands to be run on the machine under certain conditions, can be a dangerous service. Nmap RPC scan example: \\n $ nmap -sR 192.168.0.4"
+			},
+			{
+				"IDLE Scan": "IDLE Scan is a super stealthy method whereby the scan packets are bounced off an external host. You don’t need to have control over the other host, but it does have to set up and meet certain requirements. You must input the IP address of our ""zombie” host and what port number to use. It is one of the more controversial options in Nmap since it really only has a use for malicious attacks. Syntax of RPC Scan:$ nmap -sL zombin_IP:port target_IP \\n To implement a IP ID (IDLE) Scan, do the following three steps that are repeated for each port:Probe the zombie's IP ID and record it. Forge a SYN packet from the zombie and send it to the desired port on the target. Depending on the port state, the target's reaction may or may not cause the zombie's IP ID to be incremented. Probe the zombie's IP ID again. The target port state is then determined by comparing this new IP ID with the one recorded in step 1. After this process, the zombie's IP ID should have increased by either one or two. An increase of one indicates that the zombie hasn't sent out any packets, except for its reply to the attacker's probe. This lack of sent packets means that the port is not open (the target must have sent the zombie either a RST packet, which was ignored, or nothing at all). An increase of two indicates that the zombie sent out a packet between the two probes. This extra packet usually means that the port is open (the target presumably sent the zombie a SYN/ACK packet in response to the forged SYN, which induced a RST packet from the zombie). Increases larger than two usually signify a bad zombie host. It might not have predictable IP ID numbers, or might be engaged in communication unrelated to the idle scan."
+			},
+
+			{
+				"Check Firewall Stateful or Stateless?": "Let us consider what the behavior differences between a stateful and a stateless firewall would be. The stateless firewall will block based on port number, but it can't just block incoming ACK packets because those could be sent in response to an OUTGOING connection. So from the -sA scan point of view, the ports would show up as unfiltered because the firewall is only filtering SYN packets. A stateful firewall, on the other hand, can determine if an incoming ACK packet is part of an established outgoing connection. It only blocks the packet if it is unsolicited (as it is in the case of -sA). So Nmap will label the port as filtered. So the final determination is this: if ACK scan shows some ports as filtered, then it is likely a stateful firewall. If all show as unfiltered, but a regular SYN scan shows some as filtered, then it is a stateless firewall."
+			},
+
+			{
+				"Infer Deny-by-Default policy": "Systems running TCP protocol is required by RFC 793 to send a negative response to unexpected connection requests in the form of a TCP RST (reset) packet. so if you do a SYN Scan by: $ nmap -sT -T4 targetIP. If the reply is TCP RST, then the firewall is not using a deny-by-default firewall policy"
+			},
+
+			{
+				"NMAP Scripts": 1
+			},
+
+			{
+				"NMAP Commands": 1
+
+			}
+		]
+	},
+
+ "nmapCommands": {
+		"intent": "nmapCommands",
+		"textresponse": "To know how to do different nmap scans and the commands for each type of scan, click below buttons:",
+		"buttons": [
+			{
+				"UDP scan command": "UDP scan is activated with the -sU option. It can be combined with a TCP scan type such as SYN scan (-sS) to check both protocols during the same run. UDP scan works by sending a UDP packet to every targeted port. For most ports, this packet will be empty (no payload), but for a few of the more common ports a protocol-specific payload will be sent. Based on the response, or lack thereof, the port is assigned to one of four states. To do a UDP scan with Nmap: #nmap -sU <IP> for example: \\n $ nmap -sU 192.168.0.4"
+			},
+
+			{
+				"SYN Scan command": "SYN can be performed quickly, scanning thousands of ports per second on a fast network not hampered by intrusive firewalls. SYN scan is relatively unobtrusive and stealthy, since it never completes TCP connections. It also works against any compliant TCP stack rather than depending on idiosyncrasies of specific platforms as Nmap's FIN/NULL/Xmas, Maimon and idle scans do. It also allows clear, reliable differentiation between open, closed, and filtered states. Nmap starts by sending a TCP packet with the SYN flag set to port 22. This is the first step in the TCP three-way handshake that any legitimate connection attempt takes. Since the target port is open, Scanme takes the second step by sending a response with the SYN and ACK flags back. To do a SYN scan with nmap: #nmap -sS <IP> For example, #nmap -sS 192.168.1.104"
+			},
+			{
+				"TCP Connect Scan command": "Instead of writing raw packets as most other scan types do, Nmap asks the underlying operating system to establish a connection with the target machine and port by issuing the connect system call. The first two steps (SYN and SYN/ACK) are exactly the same as with a SYN scan. Then, instead of aborting the half-open connection with a RST packet, krad acknowledges the SYN/ACK with its own ACK packet, completing the connection. To do a TCP scan with nmap: #nmap -sT <IP>  For example, #nmap -sT 192.168.1.104"
+			
+			},
+
+			{
+				"Scan Single IP": "#nmap <IP> For example: #nmap 192.168.1.104"
+
+			},
+
+			{
+				"Scan Multiple IPs": "#nmap 192.168.1.104,108  Or #nmap 192.168.1.104 192.168.1.108"
+			},
+
+			{
+				"Scan Host": "#nmap <url> For example: #nmap scanme.nmap.org"
+
+			},
+
+			{
+				"Scan range of IPs": "#nmap 192.168.1.0-255"
+			},
+
+			{
+				"Scan using wildcard": "#nmap 192.168.0.* Or #nmap 10.0.*"
+			},
+
+			{
+				"Scan subnet": "#nmap 192.168.0.0/24"
+			},
+
+			{
+				"Scan from text file": "#nmap -iL IPList.txt The content of IPList.txt should be a list of IP addresses, for example: 192.168.1.104 \\n 192.168.1.108"
+			},
+
+			{
+				"Scan single port": "#nmap -p <port number> <IP> For example, #nmap -p 22 192.168.1.104"
+			},
+
+			{
+				"Scan range of ports": "#nmap -p <port range> <IP> For example, #nmap -p  20-80 192.168.1.104"
+			},
+			{
+				"Scan multiple ports": "#nmap -p <port1>,<port2>… <IP> For example, #nmap -p 22,53,80 192.168.1.104"
+			},
+
+			{
+				"Scan popular ports": "#nmap -F <IP> For example, #nmap -F 192.168.1.104 The “-F” flag stands for fast scan. It will scan for the ports listed in the nmap-services files and leaves all other ports. To scan n most popular ports, #nmap --top-ports <n> <IP> For example, #nmap –top-ports 1000 192.168.1.104 \\n The –top-ports option lets you specify the number of ports you wish to scan in each protocol, and will pick the most popular ports for you based on the new frequency data. For both TCP and UDP, the top 10 ports gets you roughly half of the open ports. The top 1,000 (out of 65,536 possible) finds roughly 93% of the open TCP ports and more than 95% of the open UDP ports. To scan all 65535 ports, #nmap -p- <IP> For example, #nmap -p- 192.168.1.104"
+			},
+
+			{
+				"Scan sequentially": " To scan linearly, such as not to randomize ports, #nmap -r <IP> For example, #nmap -r 192.168.1.104"
+			},
+
+			{
+				"Version scan command": "#nmap -sV <IP> For example, #nmap -sV 192.168.1.104 After TCP and/or UDP ports are discovered using one of the other scan methods, version detection interrogates those ports to determine more about what is actually running. The nmap-service-probes database contains probes for querying various services and match expressions to recognize and parse responses. Nmap tries to determine the service protocol (e.g. FTP, SSH, Telnet, HTTP), the application name (e.g. ISC BIND, Apache httpd, Solaris telnetd), the version number, hostname, device type (e.g. printer, router), the OS family (e.g. Windows, Linux)."
+			},
+
+			{
+				"OS Detection command": "#nmap -O <IP> For example, #nmap -O 192.168.1.104 One of Nmap's best-known features is remote OS detection using TCP/IP stack fingerprinting. Nmap sends a series of TCP and UDP packets to the remote host and examines practically every bit in the responses. After performing dozens of tests such as TCP ISN sampling, TCP options support and ordering, IP ID sampling, and the initial window size check, Nmap compares the results to its nmap-os-db database of more than 2,600 known OS fingerprints and prints out the OS details if there is a match. Each fingerprint includes a freeform textual description of the OS, and a classification which provides the vendor name (e.g. Sun), underlying OS (e.g. Solaris), OS generation (e.g. 10), and device type (general purpose, router, switch, game console, etc). \\n To use nmap for OS detection, Version detection, Script Scanning and traceroot, #nmap -A <IP> For example, #nmap -A 192.168.1.104 ‘-A’ This options makes Nmap make an effort in identifying the target OS, services and the versions. It also does traceroute and applies NSE scripts to detect additional information. This is a quite noisy scan as it applies many different scans. The NSE scripts applied is the default setting of scripts. The -A option is equivalent to applying the following options to your scan: -sC -sV -O –traceroute"
+			},
+			{
+			 	"Set custom list of TCP": "To set custom list of TCP using “URGACKPSHRSTSYNFIN” in any order and combination, #nmap --scanflags URGSYN <IP>"
+			},
+
+			{
+				"Probe Options": "The Default probe (TCP, 80, 443 & ICMP) options in nmap are #nmap -PB <IP> For example, #nmap -PB 192.168.1.104 ‘-PB’ uses both ICMP Echo Request and TCP ping, with ACK packets, this is the default option of nmap. To Use Don’t  probe i.e. assuming all hosts are up in nmap, #nmap -Pn <IP> For example, #nmap -Pn 192.168.1.104 ‘-Pn’ tells Nmap to skip the ping test and simply scan every target host provided. To check whether targets are up by probing TCP ports, #nmap -PS <portlist> <IP> For example,#nmap -PS 22,80 192.168.1.104"
+			},
+
+			{
+				"ICMP Request": " To use ICMP Echo request, #nmap -PE <IP> For Example,#nmap -PE 192.168.1.104 \\n To use ICMP TimeStamp Request, #nmap -PP <IP> For Example,#nmap -PP 192.168.1.104 \\n To use ICMP Network request, #nmap -PM <IP> For Example, #nmap -PM 192.168.1.104"
+			},
+			{
+				"NMAP Aggregate Options": "To use Very Slow Nmap Aggregate Timing option to evade from network administrator #nmap -T0 <IP> For example, #nmap -T0 192.168.1.148 ‘-T0’ is the slowest speed option in nmap, making it also the hardest to detect. To use Quite Slow option, #nmap -T1 <IP> For example, #nmap -T1 192.168.1.148 \n to use Polite for less bandwidth, #nmap -T2 <IP> For example, #nmap -T2 192.168.1.148 \\n Option – Normal (default), #nmap -T3 <IP> For example, #nmap -T3 192.168.1.148 This is the default speed option, there is no need to set it. For Aggressive:fast, #nmap -T4 <IP> For example, #nmap -T4 192.168.1.148 \\n Insane: Very Aggressive, may miss open ports, #nmap -T5 <IP> For example, #nmap -T5 192.168.1.148"
+			},
+
+			{
+				"Standard Nmap output": "#nmap -oN <file> <IP> For example, #nmap -oN testresult.txt 192.168.1.104"
+			},
+			{
+				"NMAP Formats": " To use Greppable format in nmap, #nmap -oG <file> <IP> For example, #nmap -oG 192.168.1.104 \\n To use XML output format in nmap, #nmap -oX <file> <IP> For example, #nmap -oX testresult.xml 192.168.1.104 \\n To generate Nmap, Greppable, and XML output files using basename, #nmap -oA <basename> <file> <IP> For example,#nmap -oA testresult testresult.txt 192.168.1.104 As a convenience, you may specify -oA <basename> to store scan results in normal, XML, and grepable formats at once. They are stored in <basename>.nmap, <basename>.xml, and <basename>.gnmap, respectively."
+
+			},
+
+			{
+				"Disable reverse IP address": "To disable reverse IP address lookup, #nmap -n <IP> For example, #nmap -n 192.168.1.104"
+			},
+			{
+				"Use IPv6": "To use IPv6 in nmap, #nmap -6 <IP> For example, #nmap -6 2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+
+			},
+			{
+				"Get Reason": "To display the reason why Nmap thinks port is open, closed or filtered, #nmap --reason <IP> For example, #nmap –reason 192.168.1.104"
+			},
+
+			{
+				"Save Scan results": "To use TCP syn scan(-sS) all ports (-p-)  with speed (-T3) and results save in tcpscan.txt #nmap -vv -Pn -sS -T3 -p- -oN /root/tcpscan.txt ‘-vv’ Increase the verbosity level, ‘-Pn’ will disable host discovery and run port scan only, ‘-sS’ does SYN scan, ‘-T3’ will set the scan speed to T3, ‘-p-‘ will scan all ports available, ‘-oN \\n to use UDP scan(-sU) all ports (-p-)  with speed (-T3) and results save in udpscan.txt #nmap -Pn – top-ports 1000 -sU -T3 -p- -oN /root/udpscan.txt ‘-Pn’ will disable host discovery and run port scan only, ‘– top-ports 1000’ will scan the top 1000 popular ports in nmap database. ‘-sU’ does only the UDP port, ‘-T3’ will set the scan speed to T3, ‘-oN /root/udpscan.txt’ will save all scan result into udpscan.txt."
+			},
+			{
+				"Run all scripts": "To  use Nmap command to run all available scripts against the target IP. #nmap -vv -p 137 --script=all <Target IP> For example, #nmap -vv -p 137 --script=all 192.168.1.104 ‘-vv’ Increase the verbosity level, ‘-p’ defined the target port which is 137 in this case, ‘—script=all’ will run all available scripts."
+
+			},
+
+			{
+				"NMAP Scripts": 1
+			},
+			{
+				"NMAP Scan": 1
+
+			}
+
+
+		]
+	},
+
+
+	"penTest": {
+		"intent": "penTest",
+		"textresponse": "A penetration test, colloquially known as a pen test or ethical hacking, is an authorized simulated cyberattack on a computer system, performed to evaluate the security of the system; this is not to be confused with a vulnerability assessment. Click below to know more:",
+
+		"buttons": [{
+				"Pen Test Procedure": "The pentest procedure of this lab is guided by the book: Nmap network scanning authored by Gordon Fyodor Lyon, which is available at https://Nmap.org/book/. //n In particular, you will follow the pentest approaches and analysis strategies given in the Chapter 10, 'Detecting and Subverting Firewalls and Intrusion Detection Systems', which is available at https://Nmap.org/book/firewalls.html. The required Tasks 1-4 are mapped to four sections of the chapter, respectively"
+			},
+
+			{
+				"Pen Test Plan": "To provide a comprehensive and in-depth analysis, you are recommended to read Chapter 10, 'Detecting and Subverting Firewalls and Intrusion Detection Systems', (https://Nmap.org/book/firewalls.html) carefully while doing each of your analysis point. \\n rc.firewall.pentest is the firewall setup that you want to perform the pentest. To have better understanding of various scans, you can use rc.firewall.reset to clear the firewall rules and set it to blacklist (you need to change your scanning target directly to the Metasploitable-2 VM), and compare scanning responses with the rc.firewall.pentest firewall rules. In this way, you can observe results w/o firewall rules to interpret the scanning outcomes. \\n Nmap and Metasploit Framework are installed on both the Client and Gateway VMs. Thus, you can also compare the scanning results on the Client vs on the Gateway, which can help you determine if the firewall successfully defend a scan/attack. \\n Using tcpdump to monitor the traffic from both ingress and egress ports of the gateway is always the best approach to help you understand the actions performed on the Gateway. \\n Finally, you are not restricted by the enumerated scanning approaches and provided hints. Please jump out or the box and try to provide surprising results with your own approach and in-depth analysis, since pentest is the art of cyberdefense, and you need to be creative."
+			}
+
+		]
+	},
+
+	"enumUser": {
+		"intent": "enumUser",
+		"textresponse": "Looks like you want to know how to enumerate users? Click on the relevant button to know how to enumerate users using rpc client or nmap or enum4Linux",
+		"buttons": [{
+				"NMap Enum": "The following command will start the Nmap port scan with service and OS detection: \\n $ Nmap -sS -sV -O [Target IP address]. The Nmap port and service scans return a lot of open ports, listening services, and the version of the operating system."
+			},
+			{
+				"RPC Client Enum": "Rpcclient is a Linux tool used for executing client-side MS-RPC functions. A null session is a connection with a samba or SMB server that does not require authentication with a password. No username or password is needed to set-up the connection, and therefore it is called a null session. You can open up a new terminal window and set up a null session with the Metasploitable 2 samba server using the following command: \\n $ rpcclient -U [Metasploitable-2 IP Address]. It will ask for a password, and you can press “enter”. Then you can use the following command to enumerate all the users in the system. \\n rpcclient $> querydominfo \\n rpcclient $> enumdomusers \\n rpcclient $> queryuser msfadmin"
+			},
+
+			{
+				"enum4linux": "Enum4linux can be found on Kali Linux. It is used to enumerate Windows and Samba hosts and is written in Perl. The tool is basically a wrapper for smbclient, rpcclient, net, and nmblookup. you can run enum4linux on Metasploitable 2 with all options using the following command: \\n $ enum4linux 192.168.111.128 \\nAfter enum4linux has finished, it returns us a lot of useful information."
+			}
+
+		]
+	},
+
+	"nmapScript": {
+		"intent": "nmapScript",
+		"textresponse": "Nmap Scripting Engine (NSE) is basically a digital library of Nmap scripts that help enhance the default Nmap features and report the results in a traditional Nmap output. Click below buttons to know more about the different sections, types and options to run the scripts. If you were rather looking for NMAP Scans, then click on Scan button.",
+		"buttons": [{
+				"NMAP Script sections": "NSE scripts consist of three sections:The Head Section contains meta-data which describes script’s functionality, author, impact, category and other descriptive data. The Rule Section defines necessary conditions for the script to execute. This section must contain at least one function from this list: portrule, hostrule, prerule, postrule. The Action Section defines the script logic. You can use this syntax: \\n $ nmap --script = <your-scripts> 192.168.0.4 "
+			},
+
+			{
+				"Prerule scripts": "These types of scripts run before the rest of any scanning operation, while Nmap doesn’t have any data about the remote target."
+			},
+
+			{
+				"Host scripts": "Once the Nmap default scan has finished the host exploration, detection, port scanning, or software discovery, it will perform the host scripts."
+			},
+
+			{
+				"Service scripts": "These are a particular set of Nmap scripts that are run against services on the remote host. These include HTTP service scripts, for example, which can be run against web servers."
+			},
+
+			{
+				"Postrule scripts": "These are run after the entire Nmap scan has finished and are often useful for parsing, formatting, and presenting the different results"
+			},
+
+			{
+				"With wildcard": "Nmap allows you to run scripts using wildcard, which means you can target multiple scripts that finish or end up with any pattern. For example, if you want to run all the scripts that begin with FTP, you could use this syntax, $ nmap -- script ftp*"
+			},
+
+			{
+				"Single script": "To run the HTTP-brute script to perform brute force password auditing against HTTP basic, digest, and ntlm authentication, we’ll use: \\n $ nmap --script= http-brute 192.168.0.4"
+			},
+
+			{
+				"Within Category": "If you want to run all the scripts within a category, then you can use the ‘–script category’ name, as you can see here: \\n $ nmap --script discovery 192.168.0.4 "
+			},
+
+			{
+				"Popular Script": "Nmap team has built an ‘-sC’ option, which lets you run the top Nmap scripts at once. To do this, use the ‘-sC’ argument, as shown below: \\n $ nmap -sC 192.168.0.4 "
+			},
+			
+			{
+				"NMAP Scan": 1
+			}
+
+
+		]
+	},
+
+	"rpc": {
+		"intent": "rpc",
+		"textresponse": "Looks like you want to know about RPC. Click the relevant button to know about the RPC services, RPC scanning attacks, RPC scans and how to enumerate users with RPC clients.",
+		"buttons": [{
+				"RPC Scanning Attack": "RPC scanning attack is an adversary scans for RPC services listing on a Unix/Linux host. This type of scan can be obtained via native operating system utilities or via port scanners like nmap. When performed by a scanner, an RPC datagram is sent to a list of UDP ports and the response is recorded. Particular types of responses can be indicative of well-known RPC services running on a UDP port."
+			},
+
+			{
+				"RPC scan": "RPC scan looks for machines answering to RPC (Remote Procedure Call) services. RPC, which allows remote commands to be run on the machine under certain conditions, can be a dangerous service. Nmap RPC scan example: \\n $ nmap -sR 192.168.0.4"
+			},
+
+			{
+				"RPC Service": "Remote Procedure Call is a software communication protocol that one program can use to request a service from a program located in another computer on a network without having to understand the network's details. RPC is used to call other processes on the remote systems like a local system."
+	        },
+
+	        {
+				"RPC Client Enum": "Rpcclient is a Linux tool used for executing client-side MS-RPC functions. A null session is a connection with a samba or SMB server that does not require authentication with a password. No username or password is needed to set-up the connection, and therefore it is called a null session. You can open up a new terminal window and set up a null session with the Metasploitable 2 samba server using the following command: \\n $ rpcclient -U [Metasploitable-2 IP Address]. It will ask for a password, and you can press “enter”. Then you can use the following command to enumerate all the users in the system. \\n rpcclient $> querydominfo \\n rpcclient $> enumdomusers \\n rpcclient $> queryuser msfadmin"
+			}
+
+		]
+	},
+
+
+	"snort": {
+		"intent": "snort",
+		"textresponse": "Snort is a free open source network intrusion detection system and intrusion prevention system created in 1998 by Martin Roesch, founder and former CTO of Sourcefire.",
+		"buttons": [{
+				"Run Snort": "The snort rule file is local.rules. To run snort, you need to do the following actions: (a) Replace the /etc/snort/rules/local.rules with the provided local.rules file. \\n $ cp local.rules /etc/snort/rules/local.rules \\n (b) Comment out all the rule files in the /etc/snort/snort.conf, except the local.rules. To this end, you can run the following command to comment out all the include statement, and then later uncomment the line that includes local.rules: $ sudo sed -i ’s/include \\$RULE_PATH/#include \\$RULE_PATH/’ /etc/snort/snort.conf (c) Run the snort as follows: $ sudo snort -c /etc/snort/snort.conf -A console -q -i ens5 % assuming ens5 is the interface on the server-side."
+			}
+		]
+
+	},
+
+	"other": {
+		"intent": "other",
+		"textresponse": "Not sure if I understand you correctly, could you please rephrase your question?"
+	},
+
+	"greeting": {
+		"intent": "greeting",
+		"textresponse": "Hello! Welcome to Network Security Bot! How can I help you today? You may ask questions related to lab topics such as Firewalls, Nmap Scan, Pen Test, Snort, Metasploit and Network attacks etc. Please type your questions in below chat window."
+	}
+
+
+
+
+}

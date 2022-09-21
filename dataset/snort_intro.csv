@@ -1,0 +1,16 @@
+sentence
+IDS means Intrusion Detection
+Snort is used for Intrusion Detection 
+Snort can detect network attacks.
+Snort can also be used as a simple packet logger.
+Snort can analyze real time traffic 
+Snort can analyze real time data flow in the network.
+Snort can check protocol analysis 
+Snort can detect different types of attacks.
+Snort checks the packet against user rules
+Snort rules can be written in any language
+Snort rules have good structure
+Snort can detect the attack by matching the previous attack pattern
+Snort takes appropriate action to prevent the attack. 
+Snort checks the network behavior on new packet arrival
+Snort can discard the bad packet

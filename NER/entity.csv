@@ -1,0 +1,105 @@
+,0,1
+0,Snort lab,Linux
+1,Snort lab,Computer Networking
+2,Snort lab,setup syslog
+3,Snort lab,syslog remote for logging
+4,Snort lab,deploy attacks  using hping3
+5,Snort lab,four  tasks
+6,Students,snort  packet sniffer
+7,Students,own IDS rules
+8,Students,public  domain
+9,Attacks,public  domain
+10,Students,ethical  requirement
+11,IDS,Intrusion Detection
+12,Snort,Intrusion Detection
+13,Snort,network attacks
+14,Snort,simple packet logger
+15,Snort,real time traffic
+16,Snort,real time data flow
+17,Snort,protocol analysis
+18,Snort,different  types  of attacks
+19,Snort,packet  user rules
+20,Snort rules,in language
+21,Snort rules,good  structure
+22,Snort,previous attack pattern
+23,Snort,network behavior
+24,Snort,bad  packet
+25,Snort,Packet Decoder
+26,Packet Decoder,packets
+27,Packet Decoder,underlying  protocols
+28,Packet Decoder,packet data size
+29,Packet Decoder,header anomalies
+30,Snort,Preprocessor
+31,Preprocessor,HTTP anomalies
+32,Preprocessor,FTP anomalies
+33,Preprocessor,packet data
+34,Snort,Detection Engine
+35,Detection Engine,intrusion  in packet
+36,Detection Engine,rules
+37,Snort,Log Alert system
+38,Snort,Output Module
+39,Output Module,type  of output
+40,Output Module,alerts
+41,Task1,Snort
+42,C1,Snort
+43,Snort,O1
+44,C2,Snort status
+45,Snort status,O2
+46,Configuration files,folder F1
+47,Task2,Snort
+48,C3,Snort  into NIDS
+49,Server,N1
+50,Attacker,N2
+51,i1,Client
+52,i2,Ingress
+53,i3,Egress
+54,i4,Server
+55,Snort,Sniff mode
+56,Snort,Ingress
+57,Snort,Egress
+58,Ingress,incoming  traffic
+59,Snort,firewall traffic
+60,Task2,Snort rules
+61,C4,packet sniffer
+62,Snort,packet logging
+63,packet logging,data  as file
+64,C5,files  into directories
+65,O3,alert  in terminal
+66,C7,log files
+67,Snort,tcpdump pcap
+68,Snort,unified2
+69,C8,output file type
+70,Wireshark,tcpdump pcap
+71,u2spewfoo,unified2
+72,C9,alerts   syslog
+73,Task3,Snort rules
+74,Detection alert,IP packets
+75,C10,backup to snort
+76,C11,snort conf
+77,Snort rules,icmp rules
+78,R1,icmp rules
+79,C12,icmp rules
+80,Snort rules,system variables
+81,system variables,conf file
+82,system variables,home network
+83,system variables,external  network
+84,C13,home network
+85,R2,tcp rules
+86,C14,Snort NIDS
+87,Snort rules,payload options
+88,payload options,captured  data
+89,Snort rules,non payload options
+90,R3,HTTP
+91,R4,icmp messages
+92,Network,client gateway server
+93,Packet  forwarding,on Gateway
+94,Firewall,sniff server
+95,Firewall,for testing
+96,Blacklist,for testing
+97,Task4,Land Attack
+98,Land Attack,spoofed TCP SYN Packets
+99,Task4,SYN Flood Attack
+100,Task4,Smurf Attack
+101,Task4,UDP Flood Attack
+102,Task4,Port Scan Attack
+103,Task4,Snort syslog
