@@ -1,1 +1,7 @@
-
+@software{KG-cybersecurity-education,
+  author = {Garima Agrawal},
+  month = {12},
+  title = {{KG for Cybersecurity Education}},
+  url = {https://github.com/garima0106/KG-Cybersec.git},
+  year = {2022}
+}
