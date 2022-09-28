@@ -1,0 +1,100 @@
+TRAFFIC:
+    - real time traffic
+    - firewall traffic
+    - traffic flow
+    - incoming traffic
+    - traffic
+    - data flow
+    
+PACKET:
+    - bad packet
+    - pakcets
+    - packet
+    - IP packets
+    
+    
+ANAMOLY:
+    - HEADER ANAMOLY
+    - FTP ANOMALY
+    - anamoly
+    
+    
+IDS:
+    - ids
+    - intrusion detection system
+    - intrusion detection
+    
+    
+DATA:  
+     - data
+     - software data
+     - captured data
+
+FOLDER:
+     - folder
+     - directories
+     - 3 phase EU
+    
+
+
+ALERT:
+    - alert
+    - alert in terminal
+    - alerts
+    - syslog alerts
+    - detection alert
+   
+    
+    
+RULES:
+    - IDS rules
+    - packet user rules
+    - snort rules
+    - ICMP rules
+    - TCP rules
+   
+    
+CONFIG:
+    - config
+    - config files
+    - configuration
+    
+SNIFFER:   
+    - snort packet sniffer
+    - sniffer
+    - packet sniffer
+    
+LOGGER:
+    - Snort packet logger
+    - logger
+    - packet logger
+    - SYSLOG
+    - remote logging
+    - packet logging
+    - logs 
+    - log files
+
+DECODER:
+    - packet decoder
+    - snort packet decoder
+    - decoder
+
+STRUCTURE:
+    - structure
+    - language
+    - pattern
+    - attack pattern
+    
+    
+TCPDUMP:
+    - tcpdump
+    - tcpdump pcap
+
+VARIABLES:
+    - system variables
+    - variables
+    - var
+    - system var
+GATEWAY:
+    - Client gateway server
+    - gateway

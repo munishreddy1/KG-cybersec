@@ -1,0 +1,183 @@
+URI_PREFIX: http://CYBERSEC/kb
+
+
+THINGS:
+
+    - FEATURE
+    - PRIVATE KEY
+    - SESSION ID
+    - COOKIES
+    - PROTOCOL
+    - DIGITAL SIGNATURE
+    - PACKET DECODER
+    - HTTP
+    - SERVICE
+    - FLAG
+    - USER ACCOUNT
+    - PASSWORD
+    - CONFIG
+    - SECURITY POLICY
+    - TCP SYN PACKET
+    - SYSLOG
+    - REMOTE LOGGING
+    - FUNCTION
+    - XOR
+    - REVERSE
+    - TCPDUMP
+    - ENCRYPTION
+    - DECRRYPTION
+    - SHA
+    - HASH
+    - SNORT RULES
+
+    
+      
+RELS:   
+    
+    FEATURE:
+       - PRIVATE KEY
+       - SESSION ID
+       - COOKIES
+       - PROTOCOL
+       - DIGITAL SIGNATURE
+       - HTTP
+       - SERVICE
+       - FLAG
+       - USER ACCOUNT
+       - PASSWORD
+       - CONFIG
+       - SECURITY POLICY
+       - TCP SYN PACKET
+       - TRAFFIC
+       - STRUCTURE
+       - NETWORK BEHAVIOR
+       - PACKET
+       - PACKET DATA SIZE
+       - ANOMALY
+       - OUTPUT TYPE
+       - ALERT
+       - SNORT STATUS
+       
+      
+        
+    FUNCTION:
+       - XOR
+       - REVERSE
+       - TCPDUMP
+       - ENCRYPTION
+       - DECRRYPTION
+       - SHA
+       - HASH
+       - RULES
+       - COMMANDS
+       - SNIFF MODE
+       - BACKUP
+       - VARIABLES
+       
+       
+    ATTACK:
+       - SQL INJECTION
+       - CSS
+       - DOS ATTACK
+       - THEFT
+       - ACCIDENT
+       - EXODUS
+       - SPYWARE
+       - TROJAN
+       - LAND ATTACK
+       - SMURF ATTACK
+       - UDP FLOOD ATTACK
+       - PORT SCAN ATTACK
+       - SYN FLOOD ATTACK
+       - NETWORK ATTACKS
+       - INTRUSION
+       
+       
+      
+    TECHNIQUE:
+       - HONEYPOT
+       - RISK ASSESSMENT
+       - ETHHICAL REQUIREMENT
+       - IDS
+       - PROTOCOL ANALYSIS
+       
+       
+    TOOLS:
+   
+       - BURP
+       - WIRESHARRK
+       - NMAP
+       - SNORT
+       - JAVASCRIPT
+       - PYTHON
+       - HPING3
+       - SNIFFER
+       - LOGGER
+       - DECODER
+       - DETECTION ENGINE
+       - LOG ALERT SYSTEM
+       - OUTPUT MODULE
+       - PREPROCESSOR
+       
+       
+         
+    SYSTEM:
+       - LINUX
+       - UNIX
+       - IP
+       - PORT
+       - SERVER
+       - HOST
+       - ADDRESS
+       - LAN
+       - HOME NETWORK
+       - PATENTS
+       - HUAWEI
+       - KASPERSKY LABS
+       - MITRE
+       - CLIENT
+       - SERVER
+       - COMPUTER NETWORKING
+       - PUBLIC DOMAIN
+       - INGRESS
+       - EGRESS
+       - EXTERNAL NETWORK
+       
+       
+    APP:
+       - WEBAPP
+       - BROWSER
+       - DATA
+       - FILES
+       - FOLDER
+       
+       
+    ATTACKER:
+       - ATTACK HOST
+       - ATTACKER
+       - BLACK HAT
+         
+    ETHICALHACKER:
+       - WHITE HACKER
+       - SECURITY ENGINEER
+       - ETHICAL HACKER
+     
+    USER:
+       - USER
+       - EMPLOYEE
+      
+    STUDENT:
+       - STUDENT
+       - TEAMDDEFENSE
+    
+    
+    PROJECT:
+       - TASK4
+       - PROJECT3
+       - TASKS
+       - TASK2
+      
+    COURSENAME:
+       - CSE575
+       - LAB-CNS-003
+      
