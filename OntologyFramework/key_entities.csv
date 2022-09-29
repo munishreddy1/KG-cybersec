@@ -1,0 +1,122 @@
+﻿entityName,entityType
+Private key,feature
+Session Id,feature
+Cookies,feature
+Protocol,feature
+Digital Signature,feature
+Http,feature
+Service,feature
+Flag,feature
+User Account,feature
+Password,feature
+Config,feature
+Security Policy,feature
+Tcp Syn Packet,feature
+Traffic,feature
+Structure,feature
+Network Behavior,feature
+Packet,feature
+Packet Data Size,feature
+Anomaly,feature
+Output Type,feature
+Alert,feature
+Snort Status,feature
+Payload,feature
+Icmp Messages,feature
+XOR,function
+Reverse,function
+Tcpdump,function
+Encryption,function
+Decrryption,function
+Sha,function
+Hash,function
+Rules,function
+Commands,function
+Sniff Mode,function
+Backup,function
+Variables,function
+Snort Rules,function
+Icmp Rules,function
+Tcp Rules,function
+Payload Option,function
+Nonpayload Option,function
+Test,function
+Sql Injection,attack
+Css,attack
+Dos Attack,attack
+Theft,attack
+Accident,attack
+Exodus,attack
+Spyware,attack
+Trojan,attack
+Land Attack,attack
+Smurf Attack,attack
+Udp Flood Attack,attack
+Port Scan Attack,attack
+Syn Flood Attack,attack
+Network Attacks,attack
+Intrusion,attack
+Honeypot,technique
+Risk Assessment,technique
+Ethhical Requirement,technique
+Ids,technique
+Protocol Analysis,technique
+Weak Password,vulnerability
+Bad Config,vulnerability
+Spoofed,vulnerability
+Burp,tools
+Wiresharrk,tools
+Nmap,tools
+Snort,tools
+Javascript,tools
+Python,tools
+Hping3,tools
+Sniffer,tools
+Logger,tools
+Decoder,tools
+Detection Engine,tools
+Log Alert System,tools
+Output Module,tools
+Preprocessor,tools
+Linux,system
+Unix,system
+Ip,system
+Port,system
+Server,system
+Host,system
+Address,system
+Lan,system
+Home Network,system
+Patents,system
+Huawei,system
+Kaspersky Labs,system
+Mitre,system
+Client,system
+Server,system
+Computer Networking,system
+Public Domain,system
+Ingress,system
+Egress,system
+External Network,system
+Webapp,app
+Browser,app
+Data,app
+Files,app
+Folder,app
+Attack Host,attacker
+Attacker,attacker
+Black Hat,attacker
+White Hacker,ethicalhacker
+Security Engineer,ethicalhacker
+Ethical Hacker,ethicalhacker
+User,user
+Employee,user
+Student,student
+Teamddefense,student
+Group2,student
+Task4,project
+Project3,project
+Tasks,project
+Task2,project
+Cse575,coursename
+Lab-CNS-003,coursename

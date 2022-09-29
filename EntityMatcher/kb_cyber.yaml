@@ -16,10 +16,19 @@ THINGS:
     - USER ACCOUNT
     - PASSWORD
     - CONFIG
-    - SECURITY POLICY
+    - POOR SECURITY POLICY
     - TCP SYN PACKET
-    - SYSLOG
-    - REMOTE LOGGING
+    - TRAFFIC
+    - STRUCTURE
+    - NETWORK BEHAVIOR
+    - PACKET
+    - PACKET DATA SIZE
+    - ANOMALY
+    - OUTPUT TYPE
+    - ALERT
+    - SNORT STATUS
+    - PAYLOAD
+    - ICMP MESSAGES
     - FUNCTION
     - XOR
     - REVERSE
@@ -28,8 +37,107 @@ THINGS:
     - DECRRYPTION
     - SHA
     - HASH
-    - SNORT RULES
-
+    - RULES
+    - COMMANDS
+    - SNIFF MODE
+    - BACKUP
+    - VARIABLES
+    - SNORT RULES 
+    - ICMP RULES
+    - TCP RULES
+    - PAYLOAD OPTION
+    - NONPAYLOAD OPTION
+    - TEST
+    - ATTACK
+    - SQL INJECTION
+    - CSS
+    - DOS ATTACK
+    - THEFT
+    - ACCIDENT
+    - EXODUS
+    - SPYWARE
+    - TROJAN
+    - LAND ATTACK
+    - SMURF ATTACK
+    - UDP FLOOD ATTACK
+    - PORT SCAN ATTACK
+    - SYN FLOOD ATTACK
+    - NETWORK ATTACKS
+    - INTRUSION 
+    - TECHNIQUE
+    - HONEYPOT
+    - RISK ASSESSMENT
+    - ETHHICAL REQUIREMENT
+    - IDS
+    - PROTOCOL ANALYSIS  
+    - VULNERABILITY
+    - WEAK PASSWORD
+    - BAD CONFIG
+    - SPOOFED
+    - POOR SECURITY POLICY
+    - TOOLS
+    - BURP
+    - WIRESHARRK
+    - NMAP
+    - SNORT
+    - JAVASCRIPT
+    - PYTHON
+    - HPING3
+    - SNIFFER
+    - LOGGER
+    - DECODER
+    - DETECTION ENGINE
+    - LOG ALERT SYSTEM
+    - OUTPUT MODULE
+    - PREPROCESSOR  
+    - SYSTEM
+    - LINUX
+    - UNIX
+    - IP
+    - PORT
+    - SERVER
+    - HOST
+    - ADDRESS
+    - LAN
+    - HOME NETWORK
+    - PATENTS
+    - HUAWEI
+    - KASPERSKY LABS
+    - MITRE
+    - CLIENT
+    - SERVER
+    - COMPUTER NETWORKING
+    - PUBLIC DOMAIN
+    - INGRESS
+    - EGRESS
+    - EXTERNAL NETWORK
+    - APP
+    - WEBAPP
+    - BROWSER
+    - DATA
+    - FILES
+    - FOLDER 
+    - ATTACKER
+    - ATTACK HOST
+    - ATTACKER
+    - BLACK HAT   
+    - ETHICALHACKER
+    - WHITE HACKER
+    - SECURITY ENGINEER
+    - ETHICAL HACKER
+    - USER
+    - USER
+    - EMPLOYEE
+    - STUDENT
+    - STUDENT
+    - TEAMDDEFENSE
+    - PROJECT
+    - TASKS
+    - PROJECTS 
+    - COURSENAME
+    - CSE575
+    - LAB-CNS-003
+      
     
       
 RELS:   
@@ -46,7 +154,6 @@ RELS:
        - USER ACCOUNT
        - PASSWORD
        - CONFIG
-       - SECURITY POLICY
        - TCP SYN PACKET
        - TRAFFIC
        - STRUCTURE
@@ -57,6 +164,9 @@ RELS:
        - OUTPUT TYPE
        - ALERT
        - SNORT STATUS
+       - PAYLOAD
+       - ICMP MESSAGES
+       
        
       
         
@@ -73,6 +183,12 @@ RELS:
        - SNIFF MODE
        - BACKUP
        - VARIABLES
+       - SNORT RULES 
+       - ICMP RULES
+       - TCP RULES
+       - PAYLOAD OPTION
+       - NONPAYLOAD OPTION
+       - TEST
        
        
     ATTACK:
@@ -101,9 +217,13 @@ RELS:
        - IDS
        - PROTOCOL ANALYSIS
        
-       
+    VULNERABILITY:
+       - WEAK PASSWORD
+       - BAD CONFIG
+       - SPOOFED
+       - POOR SECURITY POLICY
+    
     TOOLS:
-   
        - BURP
        - WIRESHARRK
        - NMAP
@@ -118,6 +238,7 @@ RELS:
        - LOG ALERT SYSTEM
        - OUTPUT MODULE
        - PREPROCESSOR
+       
        
        
          
@@ -172,10 +293,9 @@ RELS:
     
     
     PROJECT:
-       - TASK4
-       - PROJECT3
        - TASKS
-       - TASK2
+       - PROJECTS
+       
       
     COURSENAME:
        - CSE575

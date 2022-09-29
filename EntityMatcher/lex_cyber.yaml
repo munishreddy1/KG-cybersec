@@ -1,3 +1,229 @@
+PRIVATE KEY:
+    - key
+    - private key
+SESSION ID:
+    - session ID
+COOKIES:
+    - cookies
+    - cooky
+
+PROTOCOL:
+    - protocol
+    - protocols
+    
+
+DIGITAL SIGNATURE:
+    - signature
+    - digittal signature
+
+HTTP:
+    - http
+    - https
+    
+SERVICE:
+    - service
+    - services
+
+FLAG:  
+    - flag
+    - flags
+    
+USER ACCOUNT:
+    - account
+    - user account
+    - users account
+    - user accounts
+    
+PASSWORD:
+    - password
+    - pswd
+    - passwords
+
+TCP SYN PACKET:
+    - tcp packets
+    - tcp syn packets
+
+NETWORK BEHAVIOR:
+    - network behavior
+      
+PACKET DATA SIZE:
+    - packet data size
+    - data size
+    - size
+
+OUTPUT TYPE:
+    - output type
+    - type of output
+    
+
+
+SNORT STATUS:
+    - snort status
+    
+
+
+PAYLOAD:
+    - payload
+    - payloads
+    - payload type
+
+ICMP MESSAGES:
+    - icmp message
+    - icmp messages
+
+XOR:
+    - xor
+
+REVERSE:
+    - reverse
+    
+TCPDUMP:
+    - tcpdump
+
+ENCRYPTION:
+    - encryption
+
+DECRRYPTION:
+    - decryption
+
+SHA:
+    - sha
+    
+HASH:
+    - hash
+
+COMMANDS:
+    - command
+    - commands
+    
+SNIFF MODE:
+    - sniff mode
+    - sniff
+
+BACKUP:
+    - backup
+    
+
+SNORT RULES :
+    - snort rules
+    - IDS rules
+    - snort rule
+    - ids rule
+    
+ICMP RULES:
+    - icmp rules  
+    
+TCP RULES:
+    - tcp rules
+    
+PAYLOAD OPTION:
+    - payload option
+    - payload options
+    
+    
+NONPAYLOAD OPTION:
+    - nonpayload option
+    - non-payload option
+    - non-payload options
+    
+TEST:
+    - test
+    - testing
+    - tests
+    
+    
+SQL INJECTION:
+    - sqli
+    - sql injection
+    - sql injection attack
+    
+CSS:
+    - css
+    - css attacks
+    
+DOS ATTACK:
+    - dos attacks
+    - dos attack
+    - ddos
+    - dos
+    
+ 
+       - THEFT
+       - ACCIDENT
+       - EXODUS
+       - SPYWARE
+       - TROJAN
+       - LAND ATTACK
+       - SMURF ATTACK
+       - UDP FLOOD ATTACK
+       - PORT SCAN ATTACK
+       - SYN FLOOD ATTACK
+       - NETWORK ATTACKS
+       - INTRUSION
+       
+       - HONEYPOT
+       - RISK ASSESSMENT
+       - ETHHICAL REQUIREMENT
+       - IDS
+       - PROTOCOL ANALYSIS
+       - WEAK PASSWORD
+       - BAD CONFIG
+       - SPOOFED
+       - POOR SECURITY POLICY
+     - BURP
+       - WIRESHARRK
+       - NMAP
+       - SNORT
+       - JAVASCRIPT
+       - PYTHON
+       - HPING3
+       - SNIFFER
+       - LOGGER
+       - DECODER
+       - DETECTION ENGINE
+       - LOG ALERT SYSTEM
+       - OUTPUT MODULE
+       - PREPROCESSOR
+       - LINUX
+       - UNIX
+       - IP
+       - PORT
+       - SERVER
+       - HOST
+       - ADDRESS
+       - LAN
+       - HOME NETWORK
+       - PATENTS
+       - HUAWEI
+       - KASPERSKY LABS
+       - MITRE
+       - CLIENT
+       - SERVER
+       - COMPUTER NETWORKING
+       - PUBLIC DOMAIN
+       - INGRESS
+       - EGRESS
+       - EXTERNAL NETWORK
+       - WEBAPP
+       - BROWSER
+       - DATA
+       - FILES
+       - FOLDER
+       
+       
+        - ATTACK HOST
+       - ATTACKER
+       - BLACK HAT
+         
+        - WHITE HACKER
+       - SECURITY ENGINEER
+       - ETHICAL HACKER
+
+
+       - EMPLOYEE
+       - STUDENT
+       - TEAMDDEFENSE
+       
 TRAFFIC:
     - real time traffic
     - firewall traffic
@@ -17,12 +243,16 @@ ANAMOLY:
     - HEADER ANAMOLY
     - FTP ANOMALY
     - anamoly
-    
+
+
     
 IDS:
-    - ids
+    - IDS
     - intrusion detection system
     - intrusion detection
+    - NIDS
+    - Network Intrusion Detection System
+    
     
     
 DATA:  
@@ -44,15 +274,13 @@ ALERT:
     - syslog alerts
     - detection alert
    
-    
-    
+     
 RULES:
-    - IDS rules
     - packet user rules
-    - snort rules
-    - ICMP rules
-    - TCP rules
-   
+
+TEST:
+    - test
+    - testing
     
 CONFIG:
     - config
@@ -63,6 +291,7 @@ SNIFFER:
     - snort packet sniffer
     - sniffer
     - packet sniffer
+    - sniff server
     
 LOGGER:
     - Snort packet logger
@@ -95,6 +324,26 @@ VARIABLES:
     - variables
     - var
     - system var
+
 GATEWAY:
     - Client gateway server
     - gateway
+
+TASKS:
+    - tasks
+    - task2
+    - task4
+    - task
+
+PROJECTS:
+    - project
+    - projects
+    - project3
+
+COURSE:
+    - cse575
+    - lab-CNS-003
+    - labs
+    - cse478
+    - CSE
+    
