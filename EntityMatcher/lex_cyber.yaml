@@ -147,82 +147,263 @@ DOS ATTACK:
     - ddos
     - dos
     
+THEFT:
+    - theft
+    - accident
+        
+EXODUS:
+    - exodus
+
+SPYWARE:
+    - spyware
+    
+TROJAN:
+    - trojan
+    - trojan horse
+
+        
+LAND ATTACK:
+    - land
+    - land attack
+    - land attacks
+    
+SMURF ATTACK:
+    - smurf
+    - smurf attack
+    - smurf attacks
+    
+
+UDP FLOOD ATTACK:
+    - udp flood attack
+    
+PORT SCAN ATTACK:
+    - port scan attack
+    
+    
+SYN FLOOD ATTACK:
+    - syn flood attack
+    
+
+INTRUSION:
+    - network attacks
+    - attacks
+    - nw attack
+    - intrusion
+    
+
+HONEYPOT:
+    - honeypot
+
+RISK ASSESSMENT:
+    - risk analysis
+    - risk assessment
+    
+
+ETHHICAL REQUIREMENT:
+    - ethical
+    - ethical requirement
+    
+PROTOCOL ANALYSIS:
+    - protocol analysis
+    
+    
+WEAK PASSWORD:
+    - weak password
+    
+BAD CONFIG:
+    - bad config
+    - poor config
+    
+    
+SPOOFED:
+    - spoofed
+    
+POOR SECURITY POLICY:
+    - poor security policy
+    
+BURP:
+    - burp
+    - buurp suite
+    
+    
+WIRESHARRK:
+    - wireshark
+    
+    
+NMAP:
+    - nmap
+    
  
-       - THEFT
-       - ACCIDENT
-       - EXODUS
-       - SPYWARE
-       - TROJAN
-       - LAND ATTACK
-       - SMURF ATTACK
-       - UDP FLOOD ATTACK
-       - PORT SCAN ATTACK
-       - SYN FLOOD ATTACK
-       - NETWORK ATTACKS
-       - INTRUSION
-       
-       - HONEYPOT
-       - RISK ASSESSMENT
-       - ETHHICAL REQUIREMENT
-       - IDS
-       - PROTOCOL ANALYSIS
-       - WEAK PASSWORD
-       - BAD CONFIG
-       - SPOOFED
-       - POOR SECURITY POLICY
-     - BURP
-       - WIRESHARRK
-       - NMAP
-       - SNORT
-       - JAVASCRIPT
-       - PYTHON
-       - HPING3
-       - SNIFFER
-       - LOGGER
-       - DECODER
-       - DETECTION ENGINE
-       - LOG ALERT SYSTEM
-       - OUTPUT MODULE
-       - PREPROCESSOR
-       - LINUX
-       - UNIX
-       - IP
-       - PORT
-       - SERVER
-       - HOST
-       - ADDRESS
-       - LAN
-       - HOME NETWORK
-       - PATENTS
-       - HUAWEI
-       - KASPERSKY LABS
-       - MITRE
-       - CLIENT
-       - SERVER
-       - COMPUTER NETWORKING
-       - PUBLIC DOMAIN
-       - INGRESS
-       - EGRESS
-       - EXTERNAL NETWORK
-       - WEBAPP
-       - BROWSER
-       - DATA
-       - FILES
-       - FOLDER
-       
-       
-        - ATTACK HOST
-       - ATTACKER
-       - BLACK HAT
-         
-        - WHITE HACKER
-       - SECURITY ENGINEER
-       - ETHICAL HACKER
+SNORT:
+    - snort
+    
 
+JAVASCRIPT:
+    - javascript
+    - js
+    
+    
+PYTHON:
+    - python
+    
+HPING3:
+    - hping3
+    
+    
+DETECTION ENGINE:
+    - detection engine
+    
+LOG ALERT SYSTEM:
+    - log alert system
+    
+    
+OUTPUT MODULE:
+    - output module
+    
+PREPROCESSOR:
+    - preprocessor
+    
+    
+LINUX:
+    - linux
+    
+UNIX:
+    - unix
+    
+IP:
+    - ip
+    
+PORT:
+    - port
+    - ports
+    
+    
+SERVER:
+    - server
+    - servers
+    
+HOST:
+    - host
+    - hosts
+    
+    
+ADDRESS:
+    - address
+    - addresses
+    
+    
+LAN:
+    - lans
+    - lan
+    - local area network
+    
+HOME NETWORK:
+    - home network
+    
+    
+PATENTS:
+    - patents
+    - patent
+    
+    
+HUAWEI:
+    - huawei
+    
+KASPERSKY LABS:
+    - kaspersky labs
+    
+    
+MITRE:
+    - mitre
+    
+    
+CLIENT:
+    - client
+    - clients
+    
+SERVER:
+    - server
+    
+COMPUTER NETWORKING:
+    - networking
+    - computer networkings
+    - networks
+    - computer nw
+    - cs networks
+    
+    
+PUBLIC DOMAIN:
+    - public domain
+    
+INGRESS:
+    - ingress
+    
+    
+EGRESS:
+    - egress
+    
+    
+EXTERNAL NETWORK:
+    - external network
+    - external networks
+   
+WEBAPP:
+    - webapp
+    - app
+    - web app
+    - web application
+    
+    
+    
+BROWSER:
+    - browser
+    - browsers
+    
+    
+FILES:
+    - file
+    - flies
 
-       - EMPLOYEE
-       - STUDENT
-       - TEAMDDEFENSE
+ATTACK HOST:
+    - attack host
+    - attack hosts
+    
+    
+ATTACKER:
+    - attacker
+    - hacker
+    
+BLACK HAT:
+    - black hat
+    
+    
+WHITE HACKER:
+    - white hacker
+    - white hat
+    - ethical hacker
+
+SECURITY ENGINEER:
+    - security expert
+    - security professional
+    - security engineer
+    
+    
+EMPLOYEE:
+    - user
+    - emp
+    - employee
+    
+    
+GROUPS:
+    - student
+    - students
+    - teamdefense
+    - group members
+    - groups
+    - group
+    - teamA
+    - teamB
+    
        
 TRAFFIC:
     - real time traffic
@@ -254,7 +435,6 @@ IDS:
     - Network Intrusion Detection System
     
     
-    
 DATA:  
      - data
      - software data
@@ -263,9 +443,8 @@ DATA:
 FOLDER:
      - folder
      - directories
-     - 3 phase EU
-    
-
+     - file structure
+     
 
 ALERT:
     - alert
@@ -292,6 +471,7 @@ SNIFFER:
     - sniffer
     - packet sniffer
     - sniff server
+    
     
 LOGGER:
     - Snort packet logger

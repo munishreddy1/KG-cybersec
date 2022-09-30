@@ -53,7 +53,6 @@ THINGS:
     - CSS
     - DOS ATTACK
     - THEFT
-    - ACCIDENT
     - EXODUS
     - SPYWARE
     - TROJAN
@@ -62,7 +61,6 @@ THINGS:
     - UDP FLOOD ATTACK
     - PORT SCAN ATTACK
     - SYN FLOOD ATTACK
-    - NETWORK ATTACKS
     - INTRUSION 
     - TECHNIQUE
     - HONEYPOT
@@ -124,19 +122,17 @@ THINGS:
     - ETHICALHACKER
     - WHITE HACKER
     - SECURITY ENGINEER
-    - ETHICAL HACKER
-    - USER
     - USER
     - EMPLOYEE
     - STUDENT
-    - STUDENT
-    - TEAMDDEFENSE
+    - GROUPS
     - PROJECT
     - TASKS
-    - PROJECTS 
+    - PROJECTS
+    - COURSE
     - COURSENAME
-    - CSE575
-    - LAB-CNS-003
+   
+ 
       
     
       
@@ -196,17 +192,14 @@ RELS:
        - CSS
        - DOS ATTACK
        - THEFT
-       - ACCIDENT
-       - EXODUS
-       - SPYWARE
-       - TROJAN
        - LAND ATTACK
        - SMURF ATTACK
        - UDP FLOOD ATTACK
        - PORT SCAN ATTACK
        - SYN FLOOD ATTACK
-       - NETWORK ATTACKS
        - INTRUSION
+       - EXODUS
+       - SPYWARE
        
        
       
@@ -222,6 +215,7 @@ RELS:
        - BAD CONFIG
        - SPOOFED
        - POOR SECURITY POLICY
+       
     
     TOOLS:
        - BURP
@@ -238,7 +232,9 @@ RELS:
        - LOG ALERT SYSTEM
        - OUTPUT MODULE
        - PREPROCESSOR
+      
        
+       - 
        
        
          
@@ -281,15 +277,15 @@ RELS:
     ETHICALHACKER:
        - WHITE HACKER
        - SECURITY ENGINEER
-       - ETHICAL HACKER
+      
      
     USER:
        - USER
        - EMPLOYEE
       
     STUDENT:
-       - STUDENT
-       - TEAMDDEFENSE
+       - GROUPS
+       
     
     
     PROJECT:
@@ -298,6 +294,5 @@ RELS:
        
       
     COURSENAME:
-       - CSE575
-       - LAB-CNS-003
+       - COURSE
       
