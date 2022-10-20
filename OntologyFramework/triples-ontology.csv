@@ -34,7 +34,7 @@ Snort,has_a,Preprocessor,
 Preprocessor,can_analyze,HTTP anomalies,verify
 Preprocessor,can_analyze,FTP anomalies,verify
 Preprocessor,can_analyze,packet data,modify
-Snort,has_a,Detection Engine,
+Snort,implements,Detection Engine,
 Detection Engine,can_analyze,intrusion ,detect
 Detection Engine,has_a,rules,chains
 Snort,has_a,Log Alert system,
