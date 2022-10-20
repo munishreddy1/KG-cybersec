@@ -9,8 +9,8 @@ RETURN count(row);
 LOAD CSV WITH HEADERS FROM 'file:///function.csv' AS row
 RETURN count(row);
 
-//count data rows in function.csv (headers)
-LOAD CSV WITH HEADERS FROM 'file:///function.csv' AS row
+//count data rows in vulnerability.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///vulnerability.csv' AS row
 RETURN count(row);
 
 //count data rows in app.csv (headers)
@@ -30,8 +30,8 @@ RETURN count(row);
 LOAD CSV WITH HEADERS FROM 'file:///courseName.csv' AS row
 RETURN count(row);
 
-//count data rows in courseName.csv (headers)
-LOAD CSV WITH HEADERS FROM 'file:///courseName.csv' AS row
+//count data rows in user.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///user.csv' AS row
 RETURN row
 LIMIT 3;
 
@@ -49,4 +49,15 @@ LIMIT 3;
 LOAD CSV WITH HEADERS FROM 'file:///student.csv' AS row
 RETURN row
 LIMIT 3;
+
+//count data rows in tools.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///tools.csv' AS row
+RETURN row
+LIMIT 3;
+
+//count data rows in technique.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///technique.csv' AS row
+RETURN row
+LIMIT 3;
+
 
