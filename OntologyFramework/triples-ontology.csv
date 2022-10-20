@@ -104,3 +104,12 @@ Task4,implements,Smurf Attack,detect
 Task4,implements,UDP Flood Attack,detect
 Task4,implements,Port Scan Attack,detect
 Task4,implements,Snort syslog,sets
+project3,has_prereq,home network,
+teamDefense,uses,home network,install
+home network,can_expose,Land Attack,
+teamDefense,implements,Snort rules,
+Snort,has_a,Snort rules,
+Snort Rules,can_expose,Land Attack,detect
+teamDefense,can_analyze,TCP SYN Packets,
+attck host,can_exploit,TCP SYN Packets,
+TCP SYN Packets,can_cause,Land Attack,spoofed

@@ -1,0 +1,4 @@
+﻿entityName,entityType,entityCategory
+ ATTACK HOST,attacker,roles
+ ATTACKER,attacker,roles
+ BLACK HAT,attacker,roles

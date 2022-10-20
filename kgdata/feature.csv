@@ -1,0 +1,24 @@
+﻿entityName,entityType,entityCategory
+PRIVATE KEY,feature,concept
+SESSION ID,feature,concept
+COOKIES,feature,concept
+PROTOCOL,feature,concept
+DIGITAL SIGNATURE,feature,concept
+HTTP,feature,concept
+SERVICE,feature,concept
+FLAG,feature,concept
+USER ACCOUNT,feature,concept
+PASSWORD,feature,concept
+CONFIG,feature,concept
+TCP SYN PACKET,feature,concept
+TRAFFIC,feature,concept
+STRUCTURE,feature,concept
+NETWORK BEHAVIOR,feature,concept
+PACKET,feature,concept
+PACKET DATA SIZE,feature,concept
+ANOMALY,feature,concept
+OUTPUT TYPE,feature,concept
+ALERT,feature,concept
+SNORT STATUS,feature,concept
+PAYLOAD,feature,concept
+ICMP MESSAGES,feature,concept

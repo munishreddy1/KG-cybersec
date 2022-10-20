@@ -1,0 +1,52 @@
+// script to load csv to neo4j desktop
+
+
+//count data rows in features.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///features.csv' AS row
+RETURN count(row);
+
+//count data rows in function.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///function.csv' AS row
+RETURN count(row);
+
+//count data rows in function.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///function.csv' AS row
+RETURN count(row);
+
+//count data rows in app.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///app.csv' AS row
+RETURN count(row);
+
+//count data rows in attack.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///attack.csv' AS row
+RETURN count(row);
+
+//count data rows in attacker.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///attacker.csv' AS row
+RETURN count(row);
+
+
+//count data rows in courseName.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///courseName.csv' AS row
+RETURN count(row);
+
+//count data rows in courseName.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///courseName.csv' AS row
+RETURN row
+LIMIT 3;
+
+//count data rows in ethicalHacker.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///ethicalHacker.csv' AS row
+RETURN row
+LIMIT 3;
+
+//count data rows in project.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///project.csv' AS row
+RETURN row
+LIMIT 3;
+
+//count data rows in student.csv (headers)
+LOAD CSV WITH HEADERS FROM 'file:///student.csv' AS row
+RETURN row
+LIMIT 3;
+

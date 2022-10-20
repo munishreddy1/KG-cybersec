@@ -1,0 +1,22 @@
+﻿entityName,entityType,entityCategory
+LINUX,system,application
+ UNIX,system,application
+ IP,system,application
+ PORT,system,application
+ SERVER,system,application
+ HOST,system,application
+ ADDRESS,system,application
+ LAN,system,application
+ HOME NETWORK,system,application
+ PATENTS,system,application
+ HUAWEI,system,application
+ KASPERSKY LABS,system,application
+ MITRE,system,application
+ CLIENT,system,application
+ SERVER,system,application
+ COMPUTER NETWORKING,system,application
+ PUBLIC DOMAIN,system,application
+ INGRESS,system,application
+ EGRESS,system,application
+ EXTERNAL NETWORK,system,application
+       ,,

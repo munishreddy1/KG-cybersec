@@ -1,0 +1,19 @@
+﻿entityName,entityType,entityCategory
+XOR,function,concept
+ REVERSE,function,concept
+ TCPDUMP,function,concept
+ ENCRYPTION,function,concept
+ DECRRYPTION,function,concept
+ SHA,function,concept
+ HASH,function,concept
+ RULES,function,concept
+ COMMANDS,function,concept
+ SNIFF MODE,function,concept
+ BACKUP,function,concept
+ VARIABLES,function,concept
+ SNORT RULES ,function,concept
+ ICMP RULES,function,concept
+ TCP RULES,function,concept
+ PAYLOAD OPTION,function,concept
+ NONPAYLOAD OPTION,function,concept
+ TEST,function,concept
