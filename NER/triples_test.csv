@@ -1,0 +1,71 @@
+,0,,1
+0,AWS lab,is building,Application
+1,Application,communicate,IaaS service
+2,Application,can request,Resources
+3,Application,use,AWS SDK
+4,Application,use,AWS API
+5,AWS,provides,IaaS
+6,AWS,offers,computing
+7,AWS,offers,storage
+8,AWS,offers,messaging services
+9,Project1,building,Elastic  application
+10,Elastic  application,uses,IaaS   cloud
+11,IaaS cloud,scales,Elastic  application
+12,IaaS cloud,use,AWS
+13,Elastic  application,will offer,cloud service
+14,Elastic  application,will provide,image recognition service  to users
+15,Elastic  application,use,cloud resources
+16,Elastic  application,perform,deep  learning  on images
+17,Elastic  application,use,deep learning model
+18,deep learning model,is given,students
+19,Cloud app,takes,images
+20,images,are given by,users
+21,Cloud app,performs,image recognition
+22,image recognition,is done,deep learning model
+23,Cloud app,return,recognition result
+24,recognition result,given by,deep learning model
+25,deep learning model,is provided as,AWS image
+26,Cloud app,handle,concurrent  requests
+27,Cloud app,scales,high  demand
+28,Cloud app,scaledin,low  demand
+29,Cloud app,can use,twenty  instances
+30,Cloud app,should queue,pending  requests
+31,Cloud app,use,minimum  instances
+32,images,goes,one S3 bucket
+33,recognition result,goes,S3 bucket
+34,Project2,building,Elastic  application
+35,Elastic  application,use,PaaS Cloud
+36,Elastic  application,scales,high  demand
+37,Elastic  application,scaledin,low  demand
+38,Elastic  application,will use,AWS Lambda
+39,Elastic  application,will use,supporting  services
+40,Elastic  application,will offer,cloud service
+41,AWS Lambda,offers,computing service
+42,AWS Lambda,offers,Serverless
+43,Cloud app,implement,smart  classroom
+44,smart  classroom,will work,assistant
+45,assistant,will assist,educators
+46,assistant,takes,classroom videos
+47,assistant,performs,face recognition
+48,assistant,looks,recognized  students
+49,student information,is stored in,in database
+50,assistant,return,academic  information
+51,classroom videos,are uploaded in,S3 bucket
+52,Lambda function,uses,multimedia framework
+53,ffmpeg,is,multimedia framework
+54,ffmpeg,extracts,frames
+55,Lambda function,uses,face recognition library
+56,student information,is loaded in,in DynamoDB
+57,Users,upload,Input Bucket
+58,Input Bucket,triggers,Amazon Lambda
+59,Amazon Lambda,uses,face recognition library
+60,Amazon Lambda,uses,multimedia framework
+61,ffmpeg,is,multimedia framework
+62,ffmpeg,extracts,frames
+63,Amazon Lambda,search,AmazonDynamoDB
+64,AmazonDynamoDB,has,StudentsData
+65,Amazon Lambda,recognize,StudentsData
+66,StudentsData,have,academic  Information
+67,Amazon Lambda,returns,academic  Information
+68,academic  Information,is sent to,Output Bucket
+69,Output Bucket,sends,Users

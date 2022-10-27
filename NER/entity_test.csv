@@ -1,0 +1,80 @@
+,,,,,,,unique
+,0,1,,,Application,,Application
+0,AWS lab,Application,,,IaaS service,,IaaS service
+1,Application,IaaS service,,,Resources,,Resources
+2,Application,Resources,,,AWS SDK,,AWS SDK
+3,Application,AWS SDK,,,AWS API,,AWS API
+4,Application,AWS API,,,IaaS,,IaaS
+5,AWS,IaaS,,,computing,,computing
+6,AWS,computing,,,storage,,storage
+7,AWS,storage,,,messaging services,,messaging services
+8,AWS,messaging services,,,Elastic  application,,Elastic  application
+9,Project1,Elastic  application,,,IaaS   cloud,,IaaS   cloud
+10,Elastic  application,IaaS   cloud,,,AWS,,AWS
+11,IaaS cloud,Elastic  application,,,cloud service,,cloud service
+12,IaaS cloud,AWS,,,image recognition service  to users,,image recognition service  to users
+13,Elastic  application,cloud service,,,cloud resources,,cloud resources
+14,Elastic  application,image recognition service  to users,,,deep  learning  on images,,deep  learning  on images
+15,Elastic  application,cloud resources,,,deep learning model,,deep learning model
+16,Elastic  application,deep  learning  on images,,,students,,students
+17,Elastic  application,deep learning model,,,images,,images
+18,deep learning model,students,,,users,,users
+19,Cloud app,images,,,image recognition,,image recognition
+20,images,users,,,recognition result,,recognition result
+21,Cloud app,image recognition,,,AWS image,,AWS image
+22,image recognition,deep learning model,,,concurrent  requests,,concurrent  requests
+23,Cloud app,recognition result,,,high  demand,,high  demand
+24,recognition result,deep learning model,,,low  demand,,low  demand
+25,deep learning model,AWS image,,,twenty  instances,,twenty  instances
+26,Cloud app,concurrent  requests,,,pending  requests,,pending  requests
+27,Cloud app,high  demand,,,minimum  instances,,minimum  instances
+28,Cloud app,low  demand,,,one S3 bucket,,one S3 bucket
+29,Cloud app,twenty  instances,,,S3 bucket,,S3 bucket
+30,Cloud app,pending  requests,,,PaaS Cloud,,PaaS Cloud
+31,Cloud app,minimum  instances,,,AWS Lambda,,AWS Lambda
+32,images,one S3 bucket,,,supporting  services,,supporting  services
+33,recognition result,S3 bucket,,,computing service,,computing service
+34,Project2,Elastic  application,,,Serverless,,Serverless
+35,Elastic  application,PaaS Cloud,,,smart  classroom,,smart  classroom
+36,Elastic  application,high  demand,,,assistant,,assistant
+37,Elastic  application,low  demand,,,educators,,educators
+38,Elastic  application,AWS Lambda,,,classroom videos,,classroom videos
+39,Elastic  application,supporting  services,,,face recognition,,face recognition
+40,Elastic  application,cloud service,,,recognized  students,,recognized  students
+41,AWS Lambda,computing service,,,in database,,in database
+42,AWS Lambda,Serverless,,,academic  information,,academic  information
+43,Cloud app,smart  classroom,,,multimedia framework,,multimedia framework
+44,smart  classroom,assistant,,,frames,,frames
+45,assistant,educators,,,face recognition library,,face recognition library
+46,assistant,classroom videos,,,in DynamoDB,,in DynamoDB
+47,assistant,face recognition,,,Input Bucket,,Input Bucket
+48,assistant,recognized  students,,,Amazon Lambda,,Amazon Lambda
+49,student information,in database,,,AmazonDynamoDB,,AmazonDynamoDB
+50,assistant,academic  information,,,StudentsData,,StudentsData
+51,classroom videos,S3 bucket,,,Output Bucket,,Output Bucket
+52,Lambda function,multimedia framework,,,AWS lab,,AWS lab
+53,ffmpeg,multimedia framework,,,Application,,Application
+54,ffmpeg,frames,,,AWS,,Project1
+55,Lambda function,face recognition library,,,Project1,,IaaS cloud
+56,student information,in DynamoDB,,,Elastic  application,,Cloud app
+57,Users,Input Bucket,,,IaaS cloud,,Project2
+58,Input Bucket,Amazon Lambda,,,deep learning model,,student information
+59,Amazon Lambda,face recognition library,,,Cloud app,,Lambda function
+60,Amazon Lambda,multimedia framework,,,images,,ffmpeg
+61,ffmpeg,multimedia framework,,,image recognition,,
+62,ffmpeg,frames,,,recognition result,,
+63,Amazon Lambda,AmazonDynamoDB,,,Project2,,
+64,AmazonDynamoDB,StudentsData,,,AWS Lambda,,
+65,Amazon Lambda,StudentsData,,,smart  classroom,,
+66,StudentsData,academic  Information,,,assistant,,
+67,Amazon Lambda,academic  Information,,,student information,,
+68,academic  Information,Output Bucket,,,classroom videos,,
+69,Output Bucket,Users,,,Lambda function,,
+,,,,,ffmpeg,,
+,,,,,Users,,
+,,,,,Input Bucket,,
+,,,,,Amazon Lambda,,
+,,,,,AmazonDynamoDB,,
+,,,,,StudentsData,,
+,,,,,academic  Information,,
+,,,,,Output Bucket,,
