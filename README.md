@@ -16,3 +16,9 @@ The lexical analyser lex_cyber.yaml helped in entity linking and scope resolutio
 
 ## ChatBot
 We built an intent classification chatbot using SVM based on key entities identified. The Module ChatBot contains the model, json file for responses and API implementation.
+
+## Reproducibility 
+I tried to create the docker file in the repository as there is the requirements already existed in the main repository so that we can easyily rerun the system.
+I am unable to run the docker container as my laptop is shutting down after running for long time and probably the resource issue. I hope the docker file will works better in better resource system. I will update the link of the repository with the docker file.
+For time being I am not working not this as it is taking long hours to reproduce in my laptop.
+We can try to work it on better resources laptop.
